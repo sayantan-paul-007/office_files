@@ -1,0 +1,74 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>User Login</title>
+<link href="form.css" rel="stylesheet" type="text/css" />
+<style>
+body {
+	font-family: Arial;
+	color: #333;
+	font-size: 0.95em;
+	/*background-image: url("bg.jpeg");*/
+	background:linear-gradient(135deg,rgba(6,147,227,1) 0%,#9b51e0 100%)!important
+}
+</style>
+</head>
+<body>
+	<div>
+		<form action="" method="post" id="frmLogin"
+			onSubmit="return validate();">
+			<div class="login-form-container">
+
+				<div class="form-head">Login</div>               
+                
+                <div class="field-column">
+					<div>
+						<label for="username">Username</label><span id="user_info"
+							class="error-info"></span>
+					</div>
+					<div>
+						<input name="user_name" id="user_name" type="text"
+							class="demo-input-box" placeholder="Enter Username or Email">
+					</div>
+				</div>
+				<div class="field-column">
+					<div>
+						<label for="password">Password</label><span id="password_info"
+							class="error-info"></span>
+					</div>
+					<div>
+						<input name="password" id="password" type="password"
+							class="demo-input-box" placeholder="Enter Password">
+					</div>
+				</div>
+				<div class=field-column>
+					<div>
+						<input type="submit" name="login" value="Login" class="btnLogin"></span>
+					</div>
+				</div>				
+			</div>
+		</form>
+	</div>
+	<script>
+    function validate() {
+        var $valid = true;
+        document.getElementById("user_info").innerHTML = "";
+        document.getElementById("password_info").innerHTML = "";
+        
+        var userName = document.getElementById("user_name").value;
+        var password = document.getElementById("password").value;
+        if(userName == "") 
+        {
+            document.getElementById("user_info").innerHTML = "required";
+        	$valid = false;
+        }
+        if(password == "") 
+        {
+        	document.getElementById("password_info").innerHTML = "required";
+            $valid = false;
+        }
+        return $valid;
+    }
+    </script>
+</body>
+</html>
