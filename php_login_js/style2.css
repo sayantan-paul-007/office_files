@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: linear-gradient(to right, #141e30, #243b55);
+    
+}
+.form-container{
+    display: flex;
+    align-items: center ;
+    justify-content: center;
+    height: 100vh;
+ 
+}
+form{
+    background-color:transparent;
+    width: 35%;
+    border-radius: 10px;
+    padding: 0 56px;
+    border: 1.5px solid #fff;
+    
+}
+h1{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    padding: 24px 0;
+    color: #fff;
+}
+input{
+    width: 100%;
+    outline: none;
+    border: 1.5px solid #fff;
+    padding: 10px;
+    margin: 16px 0;
+    border-radius: 8px;
+    background-color: transparent;
+}
+label, input{
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+}
+
+#submit{
+   width: 60%;
+   background-color: transparent;
+   border: none;
+   color: #fff;
+   font-size: 18px;
+   border: 1.5px solid #fff;
+   border-radius: 8px;
+   margin: 24px 0;
+}
+#errorname,#erroremail,#errorpwd{
+    color: #ff2200;
+    font-family: 'Poppins', sans-serif;
+}
+.submit{
+    display: flex;
+    justify-content: center;
+}
+@media screen and (max-width:912px) {
+    form{
+        width: 50%;
+    }
+}
+@media screen and (max-width:420px) {
+    form{
+        width: 80%;
+        padding: 0 24px;
+    }
+}
