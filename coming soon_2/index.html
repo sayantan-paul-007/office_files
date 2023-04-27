@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COMING SOON</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-image: linear-gradient(135deg,rgba(6,147,227,1) 0%,#9b51e0 100%);
+    background-repeat: no-repeat;
+}
+nav{
+    padding: 16px 80px;
+    display: flex;
+    justify-content: center;
+}
+.banner{
+    padding: 12px 0;
+    position: relative;
+}
+h1{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    font-weight: 700;
+    font-size: 50px;
+   
+    text-shadow: #070707;
+}
+p{
+    color: #fff;
+    text-align: center;
+    width: 35%;
+    display: inline-flex;
+}
+.first{
+    font-weight: 300; 
+    padding-top: 20px;
+}
+.main{
+    text-shadow: 1px 1px 10px #444; 
+    font-size: 72px;
+}
+.divided-banner {
+    display: flex;
+    padding-top: 20px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+}
+.first-part{
+    width: 45%;
+}
+.time-cont{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.email-btn{
+ display: flex;
+ justify-content: center;
+}
+.email{
+    width: 200px;
+    height: 56px;
+    font-size: 22px;
+    border-radius: 12px;
+    border:1px solid #fff;
+    color: #ffffff;
+    outline: none;
+    background-color: transparent;
+    display: inline-block;
+    justify-content: center;
+}
+.email:hover{
+    background-color: #fff;
+    color: rgba(6,147,227,1);
+    border: none;
+    transition: 0.5s ease-in-out;
+}
+
+.email a:hover{
+    color: rgba(6,147,227,1);
+}
+.timer{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    padding: 32px 0;
+}
+.timer-circle{
+    border-radius: 50%;
+    border: 1px solid white;
+    width: 120px;
+    height: 120px;
+    position: relative;
+}
+.timer-circle p{
+    position: absolute;
+    font-size: 52px;
+    font-weight: 100;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.time-label{
+    text-align: center;
+    width: 100%;
+    font-weight: 100;
+    font-size: 20px;
+    color: #fff;
+    padding: 8px;
+}
+.icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+.icons a{
+    font-size: 32px;
+    text-decoration: none;
+    color: #fff;
+    outline: none;
+    padding: 24px 0;
+}
+.copyright{
+    text-align: center;
+    color: #cccc;
+}
+footer{
+  padding: 13.5px 0;
+}
+@media screen and (max-width: 1220px){
+    .banner{
+        padding: 32px 0;
+    }
+    nav{
+        padding: 32px 0;
+    }
+   
+    .divided-banner{
+        flex-direction: column;
+        row-gap: 50px;
+        margin-bottom: 120px;
+    }
+    .first-part{
+        width: 70%;
+    }
+    .time-cont{
+        width: 100%;
+    }
+    .copyright{
+     padding-bottom: 20px; 
+    }
+
+}
+@media screen and (max-width: 768px){
+    .divided-banner{
+         margin-bottom: 50px;
+    }
+   
+}
+@media screen and (max-width: 420px){
+    .timer{
+        flex-wrap: wrap;
+        padding: 0 30px;
+        row-gap: 30px;
+        margin-bottom: 40px;
+     }
+     .copyright{
+        font-size: 13px;
+     }
+}
+@media screen and (max-width: 360px){
+    .divided-banner{
+        padding: 16px !important;
+    }
+        
+}
+    </style>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <img src="https://www.theskillvalley.com/wp-content/uploads/2023/01/logo-yellow.png" height="56" alt="Logo">
+    </nav>
+    <section class="banner">
+        <!-- <h1 class="first">WE ARE</h1> -->
+        <h1 class="main"> COMING SOON !</h1>
+ <section class="divided-banner">
+    <div class="first-part">
+        <iframe height="300" style="border-radius: 20px; width: 100%;" src="https://www.youtube.com/embed/UV0mhY2Dxr0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+    <div class="time-cont">
+        <div class="timer">
+            <div class="time">
+                <div class="timer-circle">
+                    <p id="day"></p>
+                </div>
+            <div class="time-label">DAYS</div>
+        </div>
+        <div class="time">
+                <div class="timer-circle">
+                    <p id="hour"></p>
+                </div>
+            <div class="time-label">HOURS</div>
+        </div>
+        <div class="time">
+                <div class="timer-circle">
+                    <p id="min"></p>
+                </div>
+            <div class="time-label">MINUTES</div>
+        </div>
+        <div class="time">
+                <div class="timer-circle">
+                    <p id="secs"></p>
+                </div>
+            <div class="time-label">SECONDS</div>
+        </div>
+        </div>
+       <div class="email-btn">
+        <a href="mailto:someone@example.com"><button class="email">CONTACT US</button></a>
+       </div>
+    </div>
+    </section>
+    </section>
+<footer>
+    <div class="icons">
+            <a href="https://www.facebook.com/Theskillvalley"><iconify-icon icon="circum:facebook"></iconify-icon></a>
+            <a href="https://twitter.com/TheSkillValley"><iconify-icon icon="uit:twitter-alt"></iconify-icon></a>
+            <a href="https://www.linkedin.com/company/the-skill-valley/"><iconify-icon icon="mdi:linkedin"></iconify-icon></a>
+    </div>
+    <div class="copyright">
+        © 2023 <a style="text-decoration: none; color: #ccc;" href="#">The SkillValley</a>   | Corporate Bridge Consultancy
+    </div>
+</footer>
+
+<!-- The countdown script -->
+<script>
+    // Set the date we're counting down to
+    var countDownDate = new Date("Feb 23, 2023 00:00:00").getTime();
+    
+    // Update the count down every 1 second
+    var x = setInterval(function() {
+    
+      // Get today's date and time
+      var now = new Date().getTime();
+        
+      // Find the distance between now and the count down date
+      var distance = countDownDate - now;
+        
+      // Time calculations for days, hours, minutes and seconds
+      var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+      var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+      var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+        
+      // Output the result in an element with id="demo"
+      document.getElementById("day").innerHTML = days;
+      document.getElementById("hour").innerHTML = hours;
+      document.getElementById("min").innerHTML = minutes;
+      document.getElementById("secs").innerHTML = seconds;  
+      // If the count down is over, write some text 
+      if (distance < 0) {
+        clearInterval(x);
+        document.getElementById("min").innerHTML = "EXPIRED";
+      }
+    }, 1000);
+    </script>
+    <script src="https://code.iconify.design/iconify-icon/1.0.5/iconify-icon.min.js"></script>
+</body>
+</html>

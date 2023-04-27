@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coming Soon....</title>
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@700&family=Open+Sans:wght@400;600;800&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: linear-gradient(to right top,#ffffff 0%, #eeeeee 56%, #ffba6b 100%);
+    background-repeat: no-repeat;
+    height: 100vh;
+    padding: 0px 88px;
+    color:#ff8800;
+    text-transform: uppercase;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 24px 0;
+}
+.logo{
+    height: 56px;
+}
+.banner-content{
+    margin-top: 50px;
+    display: flex;
+    gap: 30px;
+    margin-bottom: 24px;
+}
+.banner-content  div{
+    width: 100%;
+}
+.small-text{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 32px;
+}
+.heading{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    font-size: 64px;
+  padding-bottom: 12px;
+    text-shadow: 5px 7px 16px #00000026;
+}
+.timer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    width: 100%;
+    padding-right: 20%;
+}
+.timer-circle{
+    position: relative;
+
+    height: 92px;
+    border-radius: 16px;
+
+    border: 4px solid #ff8800;
+}
+.timer-circle p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Inter';
+    font-weight: bold;
+    font-size: 36px;
+    
+}
+.time-label{
+    text-align: center;
+    font-size: 32px;
+    padding-top: 24px;
+    font-family: 'Bebas Neue', sans-serif;
+}
+.email-btn{
+    padding-top: 26px;
+}
+
+a{
+    text-decoration: none;
+}
+button{
+    background-color: transparent;
+    width: 160px;
+    height: 48px;
+    border: 3px solid #ff8800;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #ff8800;
+}
+.yt-vid{
+    width: 100%;
+    height: 50vh;
+    border: 9px solid #ff8800;
+    border-radius: 16px;
+}
+.right-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer a{
+    font-size: 32px;
+    color: #ff8800;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    padding: 32px 0;
+
+}
+@media screen and (max-width:1200px) {
+    .banner-content{
+        flex-wrap: wrap-reverse;
+        justify-content: center;
+    }
+    .yt-vid{
+        width: 80%;
+        height: 40vh;
+    }
+    .timer{
+       padding: 0 20%;
+       
+    }
+    .heading,.small-text{
+        text-align: center;
+    }
+    .heading{
+        font-size: 72px;
+    }
+    .email-btn{
+        display: flex;
+        justify-content: center;
+    }
+    
+}
+@media screen and (max-width:768px) {
+    .yt-vid{
+        width: 100%;
+       height: 30vh;
+    }
+    .timer{
+       padding: 0 10%;
+       
+    }
+    .heading,.small-text{
+        text-align: center;
+    }
+    .heading{
+        font-size: 72px;
+    }    
+}
+@media screen and (max-width:700px) {
+    .timer{
+        padding: 0 6%;
+        
+     }
+}
+@media screen and (max-width:420px){
+    body{
+        padding: 0 16px;
+    }
+    .heading{
+        font-size: 50px;
+        padding-bottom: 32px;
+    }
+    .timer{
+        gap: 15px;
+       padding: 0 5%;
+    }
+    .timer-circle p{
+        font-size: 28px;
+    }
+    .timer-circle{
+        height: 80px;
+        width: 200px;
+    }
+    .time-label{
+        font-size:24px;
+        padding-top: 18px;
+    }
+   
+} 
+</style>
+<body>
+    <nav>
+        <img src="https://drive.google.com/file/d/1Y9LAdDY_Y6IIenzbQYForA7u4Sc8KqwR/view?usp=share_link" alt="Logo" class="logo">
+    </nav>
+    <section class="banner-content">
+        <!-- Left Content  -->
+        <div class="left-content">
+            <p class="small-text">
+                we are
+            </p>
+            <h1 class="heading">
+                coming soon
+            </h1>
+            <div class="time-cont">
+            <div class="timer">
+                <div class="time">
+                    <div class="timer-circle">
+                        <p id="day"></p>
+                    </div>
+                    <div class="time-label">DAYS</div>
+            </div>
+            <div class="time">
+                    <div class="timer-circle">
+                        <p id="hour"></p>
+                    </div>
+                <div class="time-label">HOURS</div>
+            </div>
+            <div class="time">
+                    <div class="timer-circle">
+                        <p id="min"></p>
+                    </div>
+                <div class="time-label">MINUTES</div>
+            </div>
+            <div class="time">
+                    <div class="timer-circle">
+                        <p id="secs"></p>
+                    </div>
+                <div class="time-label">SECONDS</div>
+            </div>
+            </div>
+        </div>
+            <div class="email-btn">
+                <a href="mailto:info@theskillvalley.com"><button>EMAIL US</button></a>
+            </div>
+        </div>
+        <!-- Right Content -->
+        <div class="right-content">
+           
+                <iframe class="yt-vid" src="https://www.youtube.com/embed/dRW_6JMuKjM?controls=0&amp;start=1&amp;rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            
+        </div>
+    </section>
+    <footer>
+        <a href="https://www.facebook.com/Theskillvalley"><iconify-icon icon="ic:baseline-facebook"></iconify-icon></a>
+        <a href="https://twitter.com/TheSkillValley"><iconify-icon icon="basil:twitter-outline"></iconify-icon></a>
+        <a href="https://www.linkedin.com/company/the-skill-valley/"><iconify-icon icon="mdi:linkedin"></iconify-icon></a>
+    </footer>
+    <!-- The countdown script -->
+<script>
+    // Set the date we're counting down to
+    var countDownDate = new Date("Feb 23, 2023 00:00:00").getTime();
+    
+    // Update the count down every 1 second
+    var x = setInterval(function() {
+    
+      // Get today's date and time
+      var now = new Date().getTime();
+        
+      // Find the distance between now and the count down date
+      var distance = countDownDate - now;
+        
+      // Time calculations for days, hours, minutes and seconds
+      var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+      var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+      var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+        
+      // Output the result in an element with id="demo"
+      document.getElementById("day").innerHTML = days;
+      document.getElementById("hour").innerHTML = hours;
+      document.getElementById("min").innerHTML = minutes;
+      document.getElementById("secs").innerHTML = seconds;  
+      // If the count down is over, write some text 
+      if (distance < 0) {
+        clearInterval(x);
+        document.getElementById("min").innerHTML = "EXPIRED";
+      }
+    }, 1000);
+    </script>
+    <script src="https://code.iconify.design/iconify-icon/1.0.5/iconify-icon.min.js"></script>
+</body>
+</html>
