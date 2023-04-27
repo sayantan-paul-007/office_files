@@ -1,0 +1,1795 @@
+<link rel="stylesheet" href="https://cdn.educba.com/academy/wp-content/themes/business-pro-theme/assets/addons/swiper-9.1.1/package/swiper-bundle.css" />
+
+<style>
+	/*Roboto Font*/
+	
+	@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+/*Lato Font*/
+	
+	@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+/*Inter Font*/ 
+	
+	@import url('https://fonts.googleapis.com/css2?family=Inter:wght@900&display=swap');
+/*Source Serif Pro Font*/@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@200;300;400;600;700;900&display=swap');
+
+:root{
+    --primary-color: #004242;
+    --secondary-color: #024064;
+    --light-menu-bg:#9ACCD350;
+    --text-primary: #FFFFFF;
+    --text-grey:#888888;
+    --text-secondary: #000000;
+    --primary-bg:#FAFAFA;
+    --secondary-bg:#F3F1F2;
+    --heading-font:'Lato';
+    --body-font:'Roboto';
+    --btn-font:'Inter';
+    --bg-gradient-1:linear-gradient(105.39deg, rgba(0, 66, 66, 0.115) 0%, rgba(0, 66, 66, 0.425) 109.53%);
+    --bg-gradient-2: linear-gradient(105.39deg, rgba(0, 124, 255, 0.115) 0%, rgba(0, 98, 209, 0.425) 109.53%);
+}
+section{
+    padding: 2.5rem 2.5rem;
+    width: 100%;
+}
+* p{
+		margin:0 !important
+	}
+.primary{
+    background-color: var(--primary-color) !important;
+}
+.secondary{
+    background-color: var(--secondary-color) !important;
+}
+.primary-color-text{
+    color: var(--primary-color) !important;
+}
+.secondary-color-text{
+    color: var(--secondary-color) !important;
+}
+.primary-bg{
+    background-color: var(--primary-bg)!important;
+}
+.secondary-bg{
+    background-color: var(--secondary-bg)!important;
+}
+.light-bg{
+    background-color: var(--light-menu-bg)!important;
+    width: max-content;
+}
+.bg-gradient-1{
+    background-image: var(--bg-gradient-1)!important;
+}
+.bg-gradient-2{
+    background-image: var(--bg-gradient-2)!important;
+}
+.heading{
+    font-family: var(--heading-font)!important;
+    font-size: 48px;
+    text-align: center;
+	margin:0;
+    padding: 32px 0;
+}
+.heading-lg{
+    font-family: var(--heading-font)!important;
+    font-size:32px;
+    text-align: center;
+    padding: 28px 0;
+}
+.heading-small{
+    font-family: var(--heading-font)!important;
+    font-size: 24px;
+    text-align: center;
+    padding:8px 0;
+}
+.heading-xs{
+    font-family: var(--heading-font)!important;
+    font-size: 20px;
+    text-align: center;
+    padding: 24px 0;
+}
+.heading-special{
+    font-family: 'Source Serif Pro'!important;
+}
+.text-left{
+    text-align: left;
+}
+.text-center{
+    text-align: center;
+}
+.text-right{
+    text-align: right;
+}
+.heading-font{
+    font-family: 'Lato';
+}
+.para-font{
+    font-family: 'Roboto';
+}
+.primary-text{
+    color: var(--text-primary)!important;
+}
+.primary-text-bg{
+    background-color: var(--text-primary)!important;
+}
+.secondary-text{
+    color: var(--text-secondary)!important;
+}
+.grey-text{
+    color: var(--text-grey)!important;
+}
+.para{
+    font-family: var(--body-font)!important;
+    font-size:16px;
+}
+.para-md{
+    font-family: var(--body-font)!important;
+    font-size: 20px;
+    padding:16px 0;
+    padding-right:32px;
+}
+.pad-0{
+    padding: 0;
+}
+.font-xl{
+    font-size:56px;
+}
+.font-lg{
+    font-size:44px;
+}
+.font-l{
+    font-size:32px;
+}
+.font-md{
+    font-size:28px;
+}
+.font-sm{
+    font-size: 24px;
+}
+.font-xs{
+    font-size: 20px;
+}
+.font-xxs{
+    font-size:18px;
+}
+.font-xxxs{
+    font-size:16px;
+}
+.fw-300{
+    font-weight: 300 !important;
+}
+.fw-500{
+    font-weight: 500 !important;
+}
+.fw-600{
+    font-weight: 600 !important;
+}
+.a-plain{
+    text-decoration: none;
+}
+.fw-700{
+    font-weight: 700 !important;
+}
+.fw-800{
+    font-weight: 800 !important;
+}
+.flex-column{
+    display: flex;
+    flex-direction: column;
+}
+.flex-row{
+    display: flex;
+    flex-direction: row;
+}
+.flex-center{
+    display: flex;
+    align-items: center;
+}
+.flex-center-sb{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.flex-center-start{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.flex-center-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.flex-center-sa{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.flex-center-se{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.flex-wrap{
+    flex-wrap: wrap;
+}
+.gap-5{
+    gap: 5px;
+}
+.gap-10{
+    gap: 10px;
+}
+.gap-15{
+		gap:15px;
+	}
+.gap-20{
+    gap: 20px;
+}
+.gap-25{
+    gap: 25px;
+}
+.gap-30{
+    gap: 30px;
+}
+.gap-40{
+    gap: 40px;
+}
+.shadow{
+    box-shadow: 7px 11px 24px #00000025;
+}
+.shadow-light{
+    box-shadow: 9px 9px 10px #00000025;
+}
+/* Navbar */
+
+.btn{
+    border: none;
+    outline: none;
+    font-size:16px;
+    padding:12px 32px;
+    border-radius: 8px;
+}
+.btn-small{
+    border: none;
+    outline: none;
+    font-size: 14px;
+    padding:12px 32px;
+    border-radius: 8px;
+    width: max-content;
+}
+.btn-big{
+    border: none;
+    outline: none;
+    font-size: 20px;
+    padding:24px 32px;
+    border-radius: 8px;
+}
+.link-text{
+    font-size: 17px;
+}
+.root-text{
+    font-size:16px;
+}
+.search-bar{
+    position: relative;
+}
+#search{
+    height: 48px;
+    border-radius: 0px 6px 6px 0px;
+    border: 2px solid var(--primary-color);
+    width: 290px;
+    padding-left: 15px;
+    padding-right: 40px;
+    outline: none;
+   
+}
+.search-btn{
+    border: none;
+    outline: none;
+    font-size:16px;
+   
+    border-radius:6px 0px 0px 6px;
+    height: 48px;
+    padding:16px;
+
+}
+
+.search-icon{
+    position: absolute;
+    position: absolute;
+    top: 11px;
+    right: 16px;
+}
+.swiper {
+    width: 600px;
+    height: 300px;
+  }
+  .banner div{
+    width: 50%;
+  }
+  .banner{
+    background-image: url(https://cdn.educba.com/academy/wp-content/uploads/2023/04/blob-bg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .banner-title{
+    font-family: 'Source Serif Pro';
+    font-size: 72px;
+  }
+  .numbers{
+    padding: 64px ;
+  }
+	.categories{
+		padding:0;
+	}
+ .categories div{
+    width: 50%;
+ }
+ .card{
+    width: 220px;
+ }
+ .card-2{
+     width: 100%;
+    height: 100%;
+    word-wrap: break-word;
+    background-color: var(--text-primary);
+    border-radius: 16px;
+    padding:16px;
+    margin-bottom:32px ;
+ }
+ .card-pad{
+    padding:0 16px;
+ }
+ .card-pad-2{
+    padding:0 12px;
+ }
+.star{
+    color: #FF9529;
+    font-size:18px;
+}
+.swiper-container{
+    padding:8px;
+    width: 100%;
+    padding-bottom:32px;
+}
+.swiper{
+    width: 100%;
+    padding: 0 15px 15px 0;
+    height: max-content;
+}
+.swiper-slide{
+    width: 100%;
+}
+.left-arrow,.right-arrow,.aio-left,.aio-right{
+     border: none;
+    outline: none;
+    font-size:32px;
+   padding:8px;
+   border-radius: 50%;
+}
+.card-sub{
+    padding-top:8px;
+}
+.ctp-image{
+    height: 80%;
+    
+}
+.image-block , .text-block{
+   width: 50%;
+   padding: inherit;
+}
+.grid-3{
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(3,33%);
+    column-gap: 20px;
+    padding-top:16px;
+    row-gap: 20px;
+}
+
+.grid-4{
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(4,23%);
+    column-gap: 20px;
+    row-gap: 20px;
+}
+.grid-4 div,.grid-3 div{
+    width: 100%;
+    word-wrap: break-word;
+    padding: 24px;
+    border-radius:8px;
+}
+.grid-3 div{
+    padding: 4px 8px !important;
+}
+.card-3{
+    width: 100%;
+    height: 100%;
+    word-wrap: break-word;
+    border-radius: 16px;
+    padding: 20px;
+    margin-bottom:32px ;
+}
+form{
+    padding:16px 0;
+    display: grid;
+    row-gap: 20px;
+    column-gap: 25px;
+    grid-template-columns: repeat(2, 45%);
+}
+#email{
+    grid-area: 2 / 1 / 3 / 3;
+}
+#message{
+    grid-area: 3 / 1 / 4 / 3;
+}
+input, textarea{
+    border: 2px solid var(--primary-color);
+    background: none;
+    border-radius:8px;
+    padding: 8px;
+}
+.main-icon{
+    height: 60px;
+}
+
+@media only screen and (max-width: 1280px) {
+    .banner{
+        padding:32px;
+    }
+  }
+@media only screen and (max-width: 820px) {
+   .nav-right,.nav-center{
+    display: none;
+   }
+   .heading{
+    font-size:40px;
+   }
+   section{
+    padding: 24px;
+   }
+   .banner,.exam,.get-in-touch{
+    flex-wrap: wrap-reverse;
+   }
+   .banner div, .numbers div, .categories div, .exam div,.get-in-touch div{
+    width: 100%;
+   }
+   .numbers,.categories,.testimony{
+    flex-wrap: wrap;
+   }
+  .grid-3{
+    grid-template-columns: repeat(3,30%);
+    align-items: center;
+    place-content: center;
+    row-gap: 15px ;
+    column-gap: 15px;
+  }
+  .certificate,.corporate{
+    flex-wrap: wrap;
+  }
+  .text-block,.image-block{
+    display: flex;
+    justify-content: center;
+  }
+   .exam img{
+    display: flex;
+    justify-content: center;
+  }.testimony{
+    padding:40px;
+  }
+  
+  }
+  
+@media only screen and (max-width: 420px) {
+  .banner-image{
+    width: 110%;
+  }
+  .banner-title{
+    font-size: 48px;
+  }
+  .para-md{
+    font-size:16px;
+  }
+  .image-block img{
+    width: 110%;
+  }
+  .banner-button{
+    display: flex;
+    justify-content: center;
+  }
+  .grid-4, .grid-3{
+    grid-template-columns: repeat(2, 50%);
+    column-gap: 5px;
+    place-items: center;
+  }
+  .grid-3{
+    padding:8px;
+  }
+  .grid-3 div{
+    gap: 10px;
+  }
+ .grid-text p{
+  font-size:16px;
+ }
+  .heading{
+    font-size:32px;
+    padding:8px;
+  }
+  .numbers img{
+    height: 64px;
+  }
+  .numbers h3{
+    font-size:32px;
+  }
+  .numbers p{
+    font-size: 14px;
+  }
+  .exam div{
+    justify-content: center;
+  }
+   }
+</style>
+
+
+<div style="height:100px;"></div>
+    <!-- This is the banner section -->
+    <section class="flex-center-center banner">
+        <div class="text-block flex-column"><h1 class="banner-title primary-color-text fw-700">Bridge the Gap
+            Upskill Yourself </h1>
+        <p class="para-font para-md grey-text">Get yourself job ready with our online video courses taught by real-world professionals.Get yourself job ready with our online video</p>
+        <div class="banner-button"><button class="btn-big fw-600 primary primary-text" style="margin:32px 0;">Explore Courses</button></div>
+    </div>
+      <div class="image-block"><img class="banner-image" src="https://cdn.educba.com/academy/wp-content/uploads/2023/04/Blob.png" alt=""></div>
+    </section>
+    <!-- This is the number section -->
+    <section class="numbers primary flex-center-se primary-text gap-40">
+        <div class="flex-column flex-center-center">
+            <img style="padding-bottom:16px;"src="https://cdn.educba.com/academy/wp-content/uploads/2023/04/numbers-first-image.png" alt="">
+            <h3 class="font-xl para-font fw-700">2000000+</h3>
+            <p class="para fw-300">Registered Learners</p>
+        </div>
+        <div class="flex-column flex-center-center">
+            <img style="padding-bottom:16px;"  src="https://cdn.educba.com/academy/wp-content/uploads/2023/04/numbers-second-image.png" alt="">
+            <h3 class="font-xl para-font fw-700">5000+</h3>
+            <p class="para fw-300">Self paced courses   </p>
+        </div>
+        <div class="flex-column flex-center-center">
+            <img style="padding-bottom:16px;"  src="https://cdn.educba.com/academy/wp-content/uploads/2023/04/numbers-third-image.png" alt="">
+            <h3 class="font-xl para-font fw-700">50000+</h3>
+            <p class="para fw-300">Hours of content</p>
+        </div>
+    </section>
+    <!-- This is top categories section -->
+    <section class="secondary-bg">
+        <h1 class="heading">Our <strong class="primary-color-text fw-800"> TOP CATEGORIES</strong></h1>
+        <div class="categories flex-center-se flex-row">
+             <img class="banner-image" src="https://cdn.educba.com/academy/wp-content/uploads/2023/04/category-img.png" alt="category image">
+            <div class="grid-3">
+                <div class="light-bg flex-column gap-5 primary-color-text ">
+                    <div class="flex-row flex-center gap-15 main-icon ">
+                        <span class="iconify font-l" data-icon="carbon:finance"></span>
+                        <p class="para-font fw-600 font-xs">Finance</p>
+                    </div>
+                    <div class="grid-text flex-row flex-center gap-10">
+                        <span class="iconify font-xs" data-icon="cil:education"></span>
+                        <p class="para-font  font-xxxs">250+ Courses</p>
+                    </div>
+                    <div class="grid-text flex-row flex-center gap-10">
+                        <span class="iconify font-xs" data-icon="ep:video-play"></span>
+                        <p class="para-font  font-xxxs">1000+ Hours </p>
+                    </div>
+
+                </div>
+                <div class="light-bg flex-column primary-color-text ">
+                    <div class="flex-row flex-center gap-15 main-icon ">
+                        <span class="iconify font-l" data-icon="carbon:network-4"></span>
+                        <p class="para-font fw-600 font-xs">Data Science</p>
+                    </div>
+                    <div class="grid-text flex-row flex-center gap-10">
+                        <span class="iconify font-xs" data-icon="cil:education"></span>
+                        <p class="para-font  font-xxxs">360+ Courses</p>
+                    </div>
+                    <div class="grid-text flex-row flex-center gap-10">
+                        <span class="iconify font-xs" data-icon="ep:video-play"></span>
+                        <p class="para-font  font-xxxs">1500+ Hours </p>
+                    </div>
+
+                </div>
+                <div class="light-bg flex-column primary-color-text ">
+                    <div class="flex-row flex-center gap-15 main-icon">
+                        <span class="iconify font-xl" data-icon="ph:code"></span>
+                        <p class="para-font fw-600 font-xxxs">Programming and Development</p>
+                    </div>
+                    <div class="grid-text flex-row flex-center gap-10">
+                        <span class="iconify font-xs" data-icon="cil:education"></span>
+                        <p class="para-font  font-xxxs">600+ Courses</p>
+                    </div>
+                    <div class="grid-text flex-row flex-center gap-10">
+                        <span class="iconify font-xs" data-icon="ep:video-play"></span>
+                        <p class="para-font  font-xxxs">3000+ Hours </p>
+                    </div>
+
+                </div>
+                <div class="light-bg flex-column primary-color-text ">
+                    <div class="flex-row flex-center gap-15 main-icon ">
+                        <span class="iconify font-l" data-icon="ri:file-excel-2-line"></span>
+                        <p class="para-font fw-600 font-xs">Excel</p>
+                    </div>
+                    <div class="grid-text flex-row flex-center gap-10">
+                        <span class="iconify font-xs" data-icon="cil:education"></span>
+                        <p class="para-font  font-xxxs">120+ Courses</p>
+                    </div>
+                    <div class="grid-text flex-row flex-center gap-10">
+                        <span class="iconify font-xs" data-icon="ep:video-play"></span>
+                        <p class="para-font  font-xxxs">500+ Hours </p>
+                    </div>
+
+                </div>
+                <div class="light-bg flex-column primary-color-text ">
+                    <div class="flex-row flex-center gap-15 main-icon ">
+                        <span class="iconify font-l" data-icon="iconoir:design-pencil"></span>
+                        <p class="para-font fw-600 font-xs">Design</p>
+                    </div>
+                    <div class="grid-text flex-row flex-center gap-10">
+                        <span class="iconify font-xs" data-icon="cil:education"></span>
+                        <p class="para-font  font-xxxs">280+ Courses</p>
+                    </div>
+                    <div class="grid-text flex-row flex-center gap-10">
+                        <span class="iconify font-xs" data-icon="ep:video-play"></span>
+                        <p class="para-font  font-xxxs">2000+ Hours </p>
+                    </div>
+                </div>
+                <div class="light-bg flex-column primary-color-text ">
+                    <div class="flex-row flex-center gap-15 main-icon ">
+                        <span class="iconify font-l" data-icon="octicon:project-roadmap-24"></span>
+                        <p class="para-font fw-600 font-xxs">Project Management</p>
+                    </div>
+                    <div class="grid-text flex-row flex-center gap-10">
+                        <span class="iconify font-xs" data-icon="cil:education"></span>
+                        <p class="para-font  font-xxxs">100+ Courses</p>
+                    </div>
+                    <div class="grid-text flex-row flex-center gap-10">
+                        <span class="iconify font-xs" data-icon="ep:video-play"></span>
+                        <p class="para-font  font-xxxs">400+ Hours </p>
+                    </div>
+
+                </div>
+                <div class="light-bg flex-column primary-color-text ">
+                    <div class="flex-row flex-center gap-15 main-icon " style='padding-bottom:8px;'>
+                        <img src="https://cdn.educba.com/academy/wp-content/uploads/2023/04/icon.png" alt="">
+                        <p class="para-font fw-600 font-xxs">Personal Development</p>
+                    </div>
+                    <div class="grid-text flex-row flex-center gap-10" style='padding-bottom:8px;'>
+                        <span class="iconify font-xs" data-icon="cil:education"></span>
+                        <p class="para-font  font-xxxs">40+ Courses</p>
+                    </div>
+                    <div class="grid-text flex-row flex-center gap-10">
+                        <span class="iconify font-xs" data-icon="ep:video-play"></span>
+                        <p class="para-font  font-xxxs">80+ Hours </p>
+                    </div>
+
+                </div>
+                <div class="light-bg flex-column primary-color-text ">
+                    <div class="flex-row flex-center gap-15 main-icon " style='padding-bottom:8px;'>
+                        <span class="iconify font-l" data-icon="nimbus:marketing"></span>
+                        <p class="para-font fw-600 font-xs">Marketing</p>
+                    </div>
+                    <div class="grid-text flex-row flex-center gap-10" style='padding-bottom:8px;'>
+                        <span class="iconify font-xs" data-icon="cil:education"></span>
+                        <p class="para-font  font-xxxs">170+ Courses</p>
+                    </div>
+                    <div class="grid-text flex-row flex-center gap-10">
+                        <span class="iconify font-xs" data-icon="ep:video-play"></span>
+                        <p class="para-font  font-xxxs">800+ Hours </p>
+                    </div>
+
+                </div>
+                <div class="light-bg flex-column primary-color-text ">
+                    <div class="flex-row flex-center gap-15 main-icon " style='padding-bottom:8px;'>
+                        <span class="iconify font-l" data-icon="material-symbols:person-search-outline"></span>
+                        <p class="para-font fw-600 font-xxs">Human Resource</p>
+                    </div>
+                    <div class="grid-text flex-row flex-center gap-10" style='padding-bottom:8px;'>
+                        <span class="iconify font-xs" data-icon="cil:education"></span>
+                        <p class="para-font  font-xxxs">25+ Courses</p>
+                    </div>
+                    <div class="grid-text flex-row flex-center gap-10">
+                        <span class="iconify font-xs" data-icon="ep:video-play"></span>
+                        <p class="para-font  font-xxxs">100+ Hours </p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- This is top Certification section -->
+    <section class="primary-bg">
+        <h1 class="heading">Explore our <strong class="secondary-color-text fw-800"> TOP CERTIFICATION PROGRAMMES</strong></h1>
+        <p class="text-center para-font para-md" style="padding: 0; padding-bottom:32px;">These programmes includes everything from scratch to end</p>
+        <div class=" certificate flex-row flex-center-center gap-25">
+            <div class="card flex-column shadow">
+                <img src="https://cdn.educba.com/academy/wp-content/uploads/2023/04/card-image-1.png" alt="card image">
+                <div class="card-pad">
+                <h1 class="heading-small fw-800 text-left">JavaScript Certification </h1>
+                <p class=" grey-text font-xs para-font">Brad Traversy</p>
+                <div class="rating flex-row flex-center gap-5" style="height:50px;">
+                    <h5 class="rate para-font font-xs" style="color: #FF9529;">4.5</h5>
+                    <div class="star flex-row ">
+                        <span class="iconify" data-icon="material-symbols:star"></span>
+                        <span class="iconify" data-icon="material-symbols:star"></span>
+                        <span class="iconify" data-icon="material-symbols:star"></span>
+                        <span class="iconify" data-icon="material-symbols:star"></span>
+                        <span class="iconify" data-icon="material-symbols:star-half"></span>
+                    </div>
+                    <div class="grey-text para-font font-xxs">(138)</div>
+                </div>
+            </div>
+            <div class="flex-center-center" style="margin:16px 0;">
+                <button class="btn secondary para-font font-sm primary-text fw-600"> Enroll Now</button>
+            </div>
+            </div>
+            <div class="card flex-column shadow">
+                <img src="https://cdn.educba.com/academy/wp-content/uploads/2023/04/card-image-1.png" alt="card image">
+                <div class="card-pad">
+                <h1 class="heading-small fw-800 text-left">JavaScript Certification </h1>
+                <p class=" grey-text font-xs para-font">Brad Traversy</p>
+                <div class="rating flex-row flex-center gap-5" style="height:50px;">
+                    <h5 class="rate para-font font-xs" style="color: #FF9529;">4.5</h5>
+                    <div class="star flex-row">
+                        <span class="iconify" data-icon="material-symbols:star"></span>
+                        <span class="iconify" data-icon="material-symbols:star"></span>
+                        <span class="iconify" data-icon="material-symbols:star"></span>
+                        <span class="iconify" data-icon="material-symbols:star"></span>
+                        <span class="iconify" data-icon="material-symbols:star-half"></span>
+                    </div>
+                    <div class="grey-text para-font font-xxs">(138)</div>
+                </div>
+            </div>
+            <div class="flex-center-center" style="margin:16px 0;">
+                <button class="btn secondary para-font font-sm primary-text fw-600"> Enroll Now</button>
+            </div>
+            </div> <div class="card flex-column shadow">
+                <img src="https://cdn.educba.com/academy/wp-content/uploads/2023/04/card-image-1.png" alt="card image">
+                <div class="card-pad">
+                <h1 class="heading-small fw-800 text-left">JavaScript Certification </h1>
+                <p class=" grey-text font-xs para-font">Brad Traversy</p>
+                <div class="rating flex-row flex-center gap-5" style="height:50px;">
+                    <h5 class="rate para-font font-xs" style="color: #FF9529;">4.5</h5>
+                    <div class="star flex-row">
+                        <span class="iconify" data-icon="material-symbols:star"></span>
+                        <span class="iconify" data-icon="material-symbols:star"></span>
+                        <span class="iconify" data-icon="material-symbols:star"></span>
+                        <span class="iconify" data-icon="material-symbols:star"></span>
+                        <span class="iconify" data-icon="material-symbols:star-half"></span>
+                    </div>
+                    <div class="grey-text para-font font-xxs">(138)</div>
+                </div>
+            </div>
+            <div class="flex-center-center" style="margin:16px 0;">
+                <button class="btn secondary para-font font-sm primary-text fw-600"> Enroll Now</button>
+            </div>
+            </div> <div class="card flex-column shadow">
+                <img src="https://cdn.educba.com/academy/wp-content/uploads/2023/04/card-image-1.png" alt="card image">
+                <div class="card-pad">
+                <h1 class="heading-small fw-800 text-left">JavaScript Certification </h1>
+                <p class=" grey-text font-xs para-font">Brad Traversy</p>
+                <div class="rating flex-row flex-center gap-5" style="height:50px;">
+                    <h5 class="rate para-font font-xs" style="color: #FF9529;">4.5</h5>
+                    <div class="star flex-row">
+                        <span class="iconify" data-icon="material-symbols:star"></span>
+                        <span class="iconify" data-icon="material-symbols:star"></span>
+                        <span class="iconify" data-icon="material-symbols:star"></span>
+                        <span class="iconify" data-icon="material-symbols:star"></span>
+                        <span class="iconify" data-icon="material-symbols:star-half"></span>
+                    </div>
+                    <div class="grey-text para-font font-xxs">(138)</div>
+                </div>
+            </div>
+            <div class="flex-center-center" style="margin:16px 0;">
+                <button class="btn secondary para-font font-sm primary-text fw-600"> Enroll Now</button>
+            </div>
+            </div> <div class="card flex-column shadow">
+                <img src="https://cdn.educba.com/academy/wp-content/uploads/2023/04/card-image-1.png" alt="card image">
+                <div class="card-pad">
+                <h1 class="heading-small fw-800 text-left">JavaScript Certification </h1>
+                <p class=" grey-text font-xs para-font">Brad Traversy</p>
+                <div class="rating flex-row flex-center gap-5" style="height:50px;">
+                    <h5 class="rate para-font font-xs" style="color: #FF9529;">4.5</h5>
+                    <div class="star flex-row flex-center">
+                        <span class="iconify" data-icon="material-symbols:star"></span>
+                        <span class="iconify" data-icon="material-symbols:star"></span>
+                        <span class="iconify" data-icon="material-symbols:star"></span>
+                        <span class="iconify" data-icon="material-symbols:star"></span>
+                        <span class="iconify" data-icon="material-symbols:star-half"></span>
+                    </div>
+                    <div class="grey-text para-font font-xxs">(138)</div>
+                </div>
+            </div>
+            <div class="flex-center-center" style="margin:16px 0;">
+                <button class="btn secondary para-font font-sm primary-text fw-600"> Enroll Now</button>
+            </div>
+            </div>
+        </div>
+        <div class="flex-center-center" style="margin:40px 0 24px 0;">
+            <button class="btn-big secondary para-font font-sm primary-text fw-600"> View All Programs</button>
+        </div>
+    </section>
+    <!-- This is Skill Up section -->
+    <section class="secondary-bg pad-0  ">
+        <h1 class="heading">Get yourself <strong class="primary-color-text fw-800"> SKILLED UP</strong> for<strong class="primary-color-text fw-800"> FREE</strong></h1>
+        <div class="swiper-container flex-center-center gap-10">
+            <button class="left-arrow primary flex-center"><span class="iconify primary-text" data-icon="ic:round-keyboard-arrow-left"></span></button>
+            <div class="swiper skillswiper">
+                               <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                  <!-- Slides -->
+                  <div class="swiper-slide flex-column shadow-light primary-bg">
+                    <img src="https://cdn.educba.com/academy/wp-content/uploads/2023/04/card-image-1.png" alt="card image">
+                    <div class="card-pad-2">
+                        <h1 class="heading-small fw-800 text-left">JavaScript Certification </h1>
+                       
+                        <div class="rating flex-row flex-center gap-5" style="height:50px;">
+                            <h5 class="rate para-font font-xs" style="color: #FF9529;">4.5</h5>
+                            <div class="star flex-row">
+                                <span class="iconify" data-icon="material-symbols:star"></span>
+                                <span class="iconify" data-icon="material-symbols:star"></span>
+                                <span class="iconify" data-icon="material-symbols:star"></span>
+                                <span class="iconify" data-icon="material-symbols:star"></span>
+                                <span class="iconify" data-icon="material-symbols:star-half"></span>
+                            </div>
+                            <div class="grey-text para-font font-xxs">(138)</div>    
+                        </div>
+                        <div class="card-sub flex-center flex-row gap-10">
+                            <div class="flex-center"><span class="iconify grey-text font-xs" data-icon="cil:education"></span></div>
+                            <div class="para-font grey-text">1 Course   </div>
+                        </div>
+                        <div class="card-sub flex-center flex-row gap-10">
+                            <div class="flex-center"><span class="iconify grey-text font-xs" data-icon="mdi:clock-time-four-outline"></span></div>
+                            <div class="para-font grey-text">1 Hour</div>
+                        </div>
+                        <div class="card-sub flex-center flex-row gap-10">
+                            <div class="flex-center"><span class="iconify grey-text font-xs" data-icon="material-symbols:lock"></span></div>
+                            <div class="para-font grey-text">Lifetime Access</div>
+                        </div>
+                    </div>
+                    <div class="flex-center-center" style="margin:16px 0;">
+                        <button class="btn-small primary para-font font-sm primary-text fw-500"> Enroll Now</button>
+                    </div>
+                    
+                </div>
+                <div class="swiper-slide flex-column shadow-light primary-bg">
+                    <img src="https://cdn.educba.com/academy/wp-content/uploads/2023/04/card-image-1.png" alt="card image">
+                    <div class="card-pad-2">
+                        <h1 class="heading-small fw-800 text-left">JavaScript Certification </h1>
+                       
+                        <div class="rating flex-row flex-center gap-5" style="height:50px;">
+                            <h5 class="rate para-font font-xs" style="color: #FF9529;">4.5</h5>
+                            <div class="star flex-row">
+                                <span class="iconify" data-icon="material-symbols:star"></span>
+                                <span class="iconify" data-icon="material-symbols:star"></span>
+                                <span class="iconify" data-icon="material-symbols:star"></span>
+                                <span class="iconify" data-icon="material-symbols:star"></span>
+                                <span class="iconify" data-icon="material-symbols:star-half"></span>
+                            </div>
+                            <div class="grey-text para-font font-xxs">(138)</div>    
+                        </div>
+                        <div class="card-sub flex-center flex-row gap-10">
+                            <div class="flex-center"><span class="iconify grey-text font-xs" data-icon="cil:education"></span></div>
+                            <div class="para-font grey-text">1 Course   </div>
+                        </div>
+                        <div class="card-sub flex-center flex-row gap-10">
+                            <div class="flex-center"><span class="iconify grey-text font-xs" data-icon="mdi:clock-time-four-outline"></span></div>
+                            <div class="para-font grey-text">1 Hour</div>
+                        </div>
+                        <div class="card-sub flex-center flex-row gap-10">
+                            <div class="flex-center"><span class="iconify grey-text font-xs" data-icon="material-symbols:lock"></span></div>
+                            <div class="para-font grey-text">Lifetime Access</div>
+                        </div>
+                    </div>
+                    <div class="flex-center-center" style="margin:16px 0;">
+                        <button class="btn-small primary para-font font-sm primary-text fw-500"> Enroll Now</button>
+                    </div>
+                    
+                </div>  <div class="swiper-slide flex-column shadow-light primary-bg">
+                    <img src="https://cdn.educba.com/academy/wp-content/uploads/2023/04/card-image-1.png" alt="card image">
+                    <div class="card-pad-2">
+                        <h1 class="heading-small fw-800 text-left">JavaScript Certification </h1>
+                       
+                        <div class="rating flex-row flex-center gap-5" style="height:50px;">
+                            <h5 class="rate para-font font-xs" style="color: #FF9529;">4.5</h5>
+                            <div class="star flex-row">
+                                <span class="iconify" data-icon="material-symbols:star"></span>
+                                <span class="iconify" data-icon="material-symbols:star"></span>
+                                <span class="iconify" data-icon="material-symbols:star"></span>
+                                <span class="iconify" data-icon="material-symbols:star"></span>
+                                <span class="iconify" data-icon="material-symbols:star-half"></span>
+                            </div>
+                            <div class="grey-text para-font font-xxs">(138)</div>    
+                        </div>
+                        <div class="card-sub flex-center flex-row gap-10">
+                            <div class="flex-center"><span class="iconify grey-text font-xs" data-icon="cil:education"></span></div>
+                            <div class="para-font grey-text">1 Course   </div>
+                        </div>
+                        <div class="card-sub flex-center flex-row gap-10">
+                            <div class="flex-center"><span class="iconify grey-text font-xs" data-icon="mdi:clock-time-four-outline"></span></div>
+                            <div class="para-font grey-text">1 Hour</div>
+                        </div>
+                        <div class="card-sub flex-center flex-row gap-10">
+                            <div class="flex-center"><span class="iconify grey-text font-xs" data-icon="material-symbols:lock"></span></div>
+                            <div class="para-font grey-text">Lifetime Access</div>
+                        </div>
+                    </div>
+                    <div class="flex-center-center" style="margin:16px 0;">
+                        <button class="btn-small primary para-font font-sm primary-text fw-500"> Enroll Now</button>
+                    </div>
+                    
+                </div>  <div class="swiper-slide flex-column shadow-light primary-bg">
+                    <img src="https://cdn.educba.com/academy/wp-content/uploads/2023/04/card-image-1.png" alt="card image">
+                    <div class="card-pad-2">
+                        <h1 class="heading-small fw-800 text-left">JavaScript Certification </h1>
+                       
+                        <div class="rating flex-row flex-center gap-5" style="height:50px;">
+                            <h5 class="rate para-font font-xs" style="color: #FF9529;">4.5</h5>
+                            <div class="star flex-row">
+                                <span class="iconify" data-icon="material-symbols:star"></span>
+                                <span class="iconify" data-icon="material-symbols:star"></span>
+                                <span class="iconify" data-icon="material-symbols:star"></span>
+                                <span class="iconify" data-icon="material-symbols:star"></span>
+                                <span class="iconify" data-icon="material-symbols:star-half"></span>
+                            </div>
+                            <div class="grey-text para-font font-xxs">(138)</div>    
+                        </div>
+                        <div class="card-sub flex-center flex-row gap-10">
+                            <div class="flex-center"><span class="iconify grey-text font-xs" data-icon="cil:education"></span></div>
+                            <div class="para-font grey-text">1 Course   </div>
+                        </div>
+                        <div class="card-sub flex-center flex-row gap-10">
+                            <div class="flex-center"><span class="iconify grey-text font-xs" data-icon="mdi:clock-time-four-outline"></span></div>
+                            <div class="para-font grey-text">1 Hour</div>
+                        </div>
+                        <div class="card-sub flex-center flex-row gap-10">
+                            <div class="flex-center"><span class="iconify grey-text font-xs" data-icon="material-symbols:lock"></span></div>
+                            <div class="para-font grey-text">Lifetime Access</div>
+                        </div>
+                    </div>
+                    <div class="flex-center-center" style="margin:16px 0;">
+                        <button class="btn-small primary para-font font-sm primary-text fw-500"> Enroll Now</button>
+                    </div>
+                    
+                </div>  <div class="swiper-slide flex-column shadow-light primary-bg">
+                    <img src="https://cdn.educba.com/academy/wp-content/uploads/2023/04/card-image-1.png" alt="card image">
+                    <div class="card-pad-2">
+                        <h1 class="heading-small fw-800 text-left">JavaScript Certification </h1>
+                       
+                        <div class="rating flex-row flex-center gap-5" style="height:50px;">
+                            <h5 class="rate para-font font-xs" style="color: #FF9529;">4.5</h5>
+                            <div class="star flex-row">
+                                <span class="iconify" data-icon="material-symbols:star"></span>
+                                <span class="iconify" data-icon="material-symbols:star"></span>
+                                <span class="iconify" data-icon="material-symbols:star"></span>
+                                <span class="iconify" data-icon="material-symbols:star"></span>
+                                <span class="iconify" data-icon="material-symbols:star-half"></span>
+                            </div>
+                            <div class="grey-text para-font font-xxs">(138)</div>    
+                        </div>
+                        <div class="card-sub flex-center flex-row gap-10">
+                            <div class="flex-center"><span class="iconify grey-text font-xs" data-icon="cil:education"></span></div>
+                            <div class="para-font grey-text">1 Course   </div>
+                        </div>
+                        <div class="card-sub flex-center flex-row gap-10">
+                            <div class="flex-center"><span class="iconify grey-text font-xs" data-icon="mdi:clock-time-four-outline"></span></div>
+                            <div class="para-font grey-text">1 Hour</div>
+                        </div>
+                        <div class="card-sub flex-center flex-row gap-10">
+                            <div class="flex-center"><span class="iconify grey-text font-xs" data-icon="material-symbols:lock"></span></div>
+                            <div class="para-font grey-text">Lifetime Access</div>
+                        </div>
+                    </div>
+                    <div class="flex-center-center" style="margin:16px 0;">
+                        <button class="btn-small primary para-font font-sm primary-text fw-500"> Enroll Now</button>
+                    </div>
+                    
+                </div>  <div class="swiper-slide flex-column shadow-light primary-bg">
+                    <img src="https://cdn.educba.com/academy/wp-content/uploads/2023/04/card-image-1.png" alt="card image">
+                    <div class="card-pad-2">
+                        <h1 class="heading-small fw-800 text-left">JavaScript Certification </h1>
+                       
+                        <div class="rating flex-row flex-center gap-5" style="height:50px;">
+                            <h5 class="rate para-font font-xs" style="color: #FF9529;">4.5</h5>
+                            <div class="star flex-row">
+                                <span class="iconify" data-icon="material-symbols:star"></span>
+                                <span class="iconify" data-icon="material-symbols:star"></span>
+                                <span class="iconify" data-icon="material-symbols:star"></span>
+                                <span class="iconify" data-icon="material-symbols:star"></span>
+                                <span class="iconify" data-icon="material-symbols:star-half"></span>
+                            </div>
+                            <div class="grey-text para-font font-xxs">(138)</div>    
+                        </div>
+                        <div class="card-sub flex-center flex-row gap-10">
+                            <div class="flex-center"><span class="iconify grey-text font-xs" data-icon="cil:education"></span></div>
+                            <div class="para-font grey-text">1 Course   </div>
+                        </div>
+                        <div class="card-sub flex-center flex-row gap-10">
+                            <div class="flex-center"><span class="iconify grey-text font-xs" data-icon="mdi:clock-time-four-outline"></span></div>
+                            <div class="para-font grey-text">1 Hour</div>
+                        </div>
+                        <div class="card-sub flex-center flex-row gap-10">
+                            <div class="flex-center"><span class="iconify grey-text font-xs" data-icon="material-symbols:lock"></span></div>
+                            <div class="para-font grey-text">Lifetime Access</div>
+                        </div>
+                    </div>
+                    <div class="flex-center-center" style="margin:16px 0;">
+                        <button class="btn-small primary para-font font-sm primary-text fw-500"> Enroll Now</button>
+                    </div>
+                    
+                </div>  <div class="swiper-slide flex-column shadow-light primary-bg">
+                    <img src="https://cdn.educba.com/academy/wp-content/uploads/2023/04/card-image-1.png" alt="card image">
+                    <div class="card-pad-2">
+                        <h1 class="heading-small fw-800 text-left">JavaScript Certification </h1>
+                       
+                        <div class="rating flex-row flex-center gap-5" style="height:50px;">
+                            <h5 class="rate para-font font-xs" style="color: #FF9529;">4.5</h5>
+                            <div class="star flex-row">
+                                <span class="iconify" data-icon="material-symbols:star"></span>
+                                <span class="iconify" data-icon="material-symbols:star"></span>
+                                <span class="iconify" data-icon="material-symbols:star"></span>
+                                <span class="iconify" data-icon="material-symbols:star"></span>
+                                <span class="iconify" data-icon="material-symbols:star-half"></span>
+                            </div>
+                            <div class="grey-text para-font font-xxs">(138)</div>    
+                        </div>
+                        <div class="card-sub flex-center flex-row gap-10">
+                            <div class="flex-center"><span class="iconify grey-text font-xs" data-icon="cil:education"></span></div>
+                            <div class="para-font grey-text">1 Course   </div>
+                        </div>
+                        <div class="card-sub flex-center flex-row gap-10">
+                            <div class="flex-center"><span class="iconify grey-text font-xs" data-icon="mdi:clock-time-four-outline"></span></div>
+                            <div class="para-font grey-text">1 Hour</div>
+                        </div>
+                        <div class="card-sub flex-center flex-row gap-10">
+                            <div class="flex-center"><span class="iconify grey-text font-xs" data-icon="material-symbols:lock"></span></div>
+                            <div class="para-font grey-text">Lifetime Access</div>
+                        </div>
+                    </div>
+                    <div class="flex-center-center" style="margin:16px 0;">
+                        <button class="btn-small primary para-font font-sm primary-text fw-500"> Enroll Now</button>
+                    </div>
+                    
+                </div>  <div class="swiper-slide flex-column shadow-light primary-bg">
+                    <img src="https://cdn.educba.com/academy/wp-content/uploads/2023/04/card-image-1.png" alt="card image">
+                    <div class="card-pad-2">
+                        <h1 class="heading-small fw-800 text-left">JavaScript Certification </h1>
+                       
+                        <div class="rating flex-row flex-center gap-5" style="height:50px;">
+                            <h5 class="rate para-font font-xs" style="color: #FF9529;">4.5</h5>
+                            <div class="star flex-row">
+                                <span class="iconify" data-icon="material-symbols:star"></span>
+                                <span class="iconify" data-icon="material-symbols:star"></span>
+                                <span class="iconify" data-icon="material-symbols:star"></span>
+                                <span class="iconify" data-icon="material-symbols:star"></span>
+                                <span class="iconify" data-icon="material-symbols:star-half"></span>
+                            </div>
+                            <div class="grey-text para-font font-xxs">(138)</div>    
+                        </div>
+                        <div class="card-sub flex-center flex-row gap-10">
+                            <div class="flex-center"><span class="iconify grey-text font-xs" data-icon="cil:education"></span></div>
+                            <div class="para-font grey-text">1 Course   </div>
+                        </div>
+                        <div class="card-sub flex-center flex-row gap-10">
+                            <div class="flex-center"><span class="iconify grey-text font-xs" data-icon="mdi:clock-time-four-outline"></span></div>
+                            <div class="para-font grey-text">1 Hour</div>
+                        </div>
+                        <div class="card-sub flex-center flex-row gap-10">
+                            <div class="flex-center"><span class="iconify grey-text font-xs" data-icon="material-symbols:lock"></span></div>
+                            <div class="para-font grey-text">Lifetime Access</div>
+                        </div>
+                    </div>
+                    <div class="flex-center-center" style="margin:16px 0;">
+                        <button class="btn-small primary para-font font-sm primary-text fw-500"> Enroll Now</button>
+                    </div>
+                    
+                </div>  <div class="swiper-slide flex-column shadow-light primary-bg">
+                    <img src="https://cdn.educba.com/academy/wp-content/uploads/2023/04/card-image-1.png" alt="card image">
+                    <div class="card-pad-2">
+                        <h1 class="heading-small fw-800 text-left">JavaScript Certification </h1>
+                       
+                        <div class="rating flex-row flex-center gap-5" style="height:50px;">
+                            <h5 class="rate para-font font-xs" style="color: #FF9529;">4.5</h5>
+                            <div class="star flex-row">
+                                <span class="iconify" data-icon="material-symbols:star"></span>
+                                <span class="iconify" data-icon="material-symbols:star"></span>
+                                <span class="iconify" data-icon="material-symbols:star"></span>
+                                <span class="iconify" data-icon="material-symbols:star"></span>
+                                <span class="iconify" data-icon="material-symbols:star-half"></span>
+                            </div>
+                            <div class="grey-text para-font font-xxs">(138)</div>    
+                        </div>
+                        <div class="card-sub flex-center flex-row gap-10">
+                            <div class="flex-center"><span class="iconify grey-text font-xs" data-icon="cil:education"></span></div>
+                            <div class="para-font grey-text">1 Course   </div>
+                        </div>
+                        <div class="card-sub flex-center flex-row gap-10">
+                            <div class="flex-center"><span class="iconify grey-text font-xs" data-icon="mdi:clock-time-four-outline"></span></div>
+                            <div class="para-font grey-text">1 Hour</div>
+                        </div>
+                        <div class="card-sub flex-center flex-row gap-10">
+                            <div class="flex-center"><span class="iconify grey-text font-xs" data-icon="material-symbols:lock"></span></div>
+                            <div class="para-font grey-text">Lifetime Access</div>
+                        </div>
+                    </div>
+                    <div class="flex-center-center" style="margin:16px 0;">
+                        <button class="btn-small primary para-font font-sm primary-text fw-500"> Enroll Now</button>
+                    </div>
+                    
+                </div>  <div class="swiper-slide flex-column shadow-light primary-bg">
+                    <img src="https://cdn.educba.com/academy/wp-content/uploads/2023/04/card-image-1.png" alt="card image">
+                    <div class="card-pad-2">
+                        <h1 class="heading-small fw-800 text-left">JavaScript Certification </h1>
+                       
+                        <div class="rating flex-row flex-center gap-5" style="height:50px;">
+                            <h5 class="rate para-font font-xs" style="color: #FF9529;">4.5</h5>
+                            <div class="star flex-row">
+                                <span class="iconify" data-icon="material-symbols:star"></span>
+                                <span class="iconify" data-icon="material-symbols:star"></span>
+                                <span class="iconify" data-icon="material-symbols:star"></span>
+                                <span class="iconify" data-icon="material-symbols:star"></span>
+                                <span class="iconify" data-icon="material-symbols:star-half"></span>
+                            </div>
+                            <div class="grey-text para-font font-xxs">(138)</div>    
+                        </div>
+                        <div class="card-sub flex-center flex-row gap-10">
+                            <div class="flex-center"><span class="iconify grey-text font-xs" data-icon="cil:education"></span></div>
+                            <div class="para-font grey-text">1 Course   </div>
+                        </div>
+                        <div class="card-sub flex-center flex-row gap-10">
+                            <div class="flex-center"><span class="iconify grey-text font-xs" data-icon="mdi:clock-time-four-outline"></span></div>
+                            <div class="para-font grey-text">1 Hour</div>
+                        </div>
+                        <div class="card-sub flex-center flex-row gap-10">
+                            <div class="flex-center"><span class="iconify grey-text font-xs" data-icon="material-symbols:lock"></span></div>
+                            <div class="para-font grey-text">Lifetime Access</div>
+                        </div>
+                    </div>
+                    <div class="flex-center-center" style="margin:16px 0;">
+                        <button class="btn-small primary para-font font-sm primary-text fw-500"> Enroll Now</button>
+                    </div>
+                    
+                </div>  <div class="swiper-slide flex-column shadow-light primary-bg">
+                    <img src="https://cdn.educba.com/academy/wp-content/uploads/2023/04/card-image-1.png" alt="card image">
+                    <div class="card-pad-2">
+                        <h1 class="heading-small fw-800 text-left">JavaScript Certification </h1>
+                       
+                        <div class="rating flex-row flex-center gap-5" style="height:50px;">
+                            <h5 class="rate para-font font-xs" style="color: #FF9529;">4.5</h5>
+                            <div class="star flex-row">
+                                <span class="iconify" data-icon="material-symbols:star"></span>
+                                <span class="iconify" data-icon="material-symbols:star"></span>
+                                <span class="iconify" data-icon="material-symbols:star"></span>
+                                <span class="iconify" data-icon="material-symbols:star"></span>
+                                <span class="iconify" data-icon="material-symbols:star-half"></span>
+                            </div>
+                            <div class="grey-text para-font font-xxs">(138)</div>    
+                        </div>
+                        <div class="card-sub flex-center flex-row gap-10">
+                            <div class="flex-center"><span class="iconify grey-text font-xs" data-icon="cil:education"></span></div>
+                            <div class="para-font grey-text">1 Course   </div>
+                        </div>
+                        <div class="card-sub flex-center flex-row gap-10">
+                            <div class="flex-center"><span class="iconify grey-text font-xs" data-icon="mdi:clock-time-four-outline"></span></div>
+                            <div class="para-font grey-text">1 Hour</div>
+                        </div>
+                        <div class="card-sub flex-center flex-row gap-10">
+                            <div class="flex-center"><span class="iconify grey-text font-xs" data-icon="material-symbols:lock"></span></div>
+                            <div class="para-font grey-text">Lifetime Access</div>
+                        </div>
+                    </div>
+                    <div class="flex-center-center" style="margin:16px 0;">
+                        <button class="btn-small primary para-font font-sm primary-text fw-500"> Enroll Now</button>
+                    </div>
+                    
+                </div>
+                </div>
+                
+                
+             
+              </div>
+              <button class="right-arrow primary flex-center"><span class="iconify primary-text" data-icon="ic:round-keyboard-arrow-right"></span></button>    
+        </div>
+        
+          
+    </section>
+     <!-- This is All in one bundle section -->
+    <section class="primary-bg pad-0  ">
+        <h1 class="heading">Explore our <strong class="secondary-color-text fw-800">ALL IN ONE BUNDLES</strong></h1>
+        <div class="swiper-container flex-center-center gap-10">
+            <button class="aio-left  secondary flex-center"><span class="iconify primary-text" data-icon="ic:round-keyboard-arrow-left"></span></button>
+            <div class="swiper aioswiper">
+                               <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                  <!-- Slides -->
+                  <div class="swiper-slide flex-column shadow-light primary-bg">
+                    <img src="https://cdn.educba.com/academy/wp-content/uploads/2023/04/card-image-1.png" alt="card image">
+                    <div class="card-pad-2">
+                        <h1 class="heading-small fw-800 text-left">JavaScript Certification </h1>
+                       
+                        <div class="rating flex-row flex-center gap-5" style="height:50px;">
+                            <h5 class="rate para-font font-xs" style="color: #FF9529;">4.5</h5>
+                            <div class="star flex-row">
+                                <span class="iconify" data-icon="material-symbols:star"></span>
+                                <span class="iconify" data-icon="material-symbols:star"></span>
+                                <span class="iconify" data-icon="material-symbols:star"></span>
+                                <span class="iconify" data-icon="material-symbols:star"></span>
+                                <span class="iconify" data-icon="material-symbols:star-half"></span>
+                            </div>
+                            <div class="grey-text para-font font-xxs">(138)</div>    
+                        </div>
+                        <div class="card-sub flex-center flex-row gap-10">
+                            <div class="flex-center"><span class="iconify grey-text font-xs" data-icon="cil:education"></span></div>
+                            <div class="para-font  grey-text">250+ Courses</div>
+                        </div>
+                        <div class="card-sub flex-center flex-row gap-10">
+                            <div class="flex-center"><span class="iconify grey-text font-xs" data-icon="mdi:clock-time-four-outline"></span></div>
+                            <div class="para-font  grey-text">1000+ Hours</div>
+                        </div>
+                        <div class="card-sub flex-center flex-row gap-10">
+                            <div class="flex-center"><span class="iconify grey-text font-xs" data-icon="octicon:project-24"></span></div>
+                            <div class="para-font  grey-text">40+ Projects</div>
+                        </div>
+                        <div class="card-sub flex-center flex-row gap-10">
+                            <div class="flex-center"><span class="iconify grey-text font-xs" data-icon="carbon:certificate"></span></div>
+                            <div class="para-font  grey-text">Verifiable Certificate</div>
+                        </div>
+                        <div class="card-sub flex-center flex-row gap-10">
+                            <div class="flex-center"><span class="iconify grey-text font-xs" data-icon="material-symbols:lock"></span></div>
+                            <div class="para-font  grey-text">Lifetime Access</div>
+                        </div>
+                    </div>
+                    <div class="flex-center-center" style="margin:16px 0;">
+                        <button class="btn-small secondary para-font font-sm primary-text fw-500"> Enroll Now</button>
+                    </div>
+                    
+                </div>
+                  <div class="swiper-slide flex-column shadow-light primary-bg">
+                    <img src="https://cdn.educba.com/academy/wp-content/uploads/2023/04/card-image-1.png" alt="card image">
+                    <div class="card-pad-2">
+                        <h1 class="heading-small fw-800 text-left">JavaScript Certification </h1>
+                       
+                        <div class="rating flex-row flex-center gap-5" style="height:50px;">
+                            <h5 class="rate para-font font-xs" style="color: #FF9529;">4.5</h5>
+                            <div class="star flex-row">
+                                <span class="iconify" data-icon="material-symbols:star"></span>
+                                <span class="iconify" data-icon="material-symbols:star"></span>
+                                <span class="iconify" data-icon="material-symbols:star"></span>
+                                <span class="iconify" data-icon="material-symbols:star"></span>
+                                <span class="iconify" data-icon="material-symbols:star-half"></span>
+                            </div>
+                            <div class="grey-text para-font font-xxs">(138)</div>    
+                        </div>
+                        <div class="card-sub flex-center flex-row gap-10">
+                            <div class="flex-center"><span class="iconify grey-text font-xs" data-icon="cil:education"></span></div>
+                            <div class="para-font  grey-text">250+ Courses</div>
+                        </div>
+                        <div class="card-sub flex-center flex-row gap-10">
+                            <div class="flex-center"><span class="iconify grey-text font-xs" data-icon="mdi:clock-time-four-outline"></span></div>
+                            <div class="para-font  grey-text">1000+ Hours</div>
+                        </div>
+                        <div class="card-sub flex-center flex-row gap-10">
+                            <div class="flex-center"><span class="iconify grey-text font-xs" data-icon="octicon:project-24"></span></div>
+                            <div class="para-font  grey-text">40+ Projects</div>
+                        </div>
+                        <div class="card-sub flex-center flex-row gap-10">
+                            <div class="flex-center"><span class="iconify grey-text font-xs" data-icon="carbon:certificate"></span></div>
+                            <div class="para-font  grey-text">Verifiable Certificate</div>
+                        </div>
+                        <div class="card-sub flex-center flex-row gap-10">
+                            <div class="flex-center"><span class="iconify grey-text font-xs" data-icon="material-symbols:lock"></span></div>
+                            <div class="para-font  grey-text">Lifetime Access</div>
+                        </div>
+                    </div>
+                    <div class="flex-center-center" style="margin:16px 0;">
+                        <button class="btn-small secondary para-font font-sm primary-text fw-500"> Enroll Now</button>
+                    </div>
+                    
+                </div>
+                  <div class="swiper-slide flex-column shadow-light primary-bg">
+                    <img src="https://cdn.educba.com/academy/wp-content/uploads/2023/04/card-image-1.png" alt="card image">
+                    <div class="card-pad-2">
+                        <h1 class="heading-small fw-800 text-left">JavaScript Certification </h1>
+                       
+                        <div class="rating flex-row flex-center gap-5" style="height:50px;">
+                            <h5 class="rate para-font font-xs" style="color: #FF9529;">4.5</h5>
+                            <div class="star flex-row">
+                                <span class="iconify" data-icon="material-symbols:star"></span>
+                                <span class="iconify" data-icon="material-symbols:star"></span>
+                                <span class="iconify" data-icon="material-symbols:star"></span>
+                                <span class="iconify" data-icon="material-symbols:star"></span>
+                                <span class="iconify" data-icon="material-symbols:star-half"></span>
+                            </div>
+                            <div class="grey-text para-font font-xxs">(138)</div>    
+                        </div>
+                        <div class="card-sub flex-center flex-row gap-10">
+                            <div class="flex-center"><span class="iconify grey-text font-xs" data-icon="cil:education"></span></div>
+                            <div class="para-font  grey-text">250+ Courses</div>
+                        </div>
+                        <div class="card-sub flex-center flex-row gap-10">
+                            <div class="flex-center"><span class="iconify grey-text font-xs" data-icon="mdi:clock-time-four-outline"></span></div>
+                            <div class="para-font  grey-text">1000+ Hours</div>
+                        </div>
+                        <div class="card-sub flex-center flex-row gap-10">
+                            <div class="flex-center"><span class="iconify grey-text font-xs" data-icon="octicon:project-24"></span></div>
+                            <div class="para-font  grey-text">40+ Projects</div>
+                        </div>
+                        <div class="card-sub flex-center flex-row gap-10">
+                            <div class="flex-center"><span class="iconify grey-text font-xs" data-icon="carbon:certificate"></span></div>
+                            <div class="para-font  grey-text">Verifiable Certificate</div>
+                        </div>
+                        <div class="card-sub flex-center flex-row gap-10">
+                            <div class="flex-center"><span class="iconify grey-text font-xs" data-icon="material-symbols:lock"></span></div>
+                            <div class="para-font  grey-text">Lifetime Access</div>
+                        </div>
+                    </div>
+                    <div class="flex-center-center" style="margin:16px 0;">
+                        <button class="btn-small secondary para-font font-sm primary-text fw-500"> Enroll Now</button>
+                    </div>
+                    
+                </div>
+                  <div class="swiper-slide flex-column shadow-light primary-bg">
+                    <img src="https://cdn.educba.com/academy/wp-content/uploads/2023/04/card-image-1.png" alt="card image">
+                    <div class="card-pad-2">
+                        <h1 class="heading-small fw-800 text-left">JavaScript Certification </h1>
+                       
+                        <div class="rating flex-row flex-center gap-5" style="height:50px;">
+                            <h5 class="rate para-font font-xs" style="color: #FF9529;">4.5</h5>
+                            <div class="star flex-row">
+                                <span class="iconify" data-icon="material-symbols:star"></span>
+                                <span class="iconify" data-icon="material-symbols:star"></span>
+                                <span class="iconify" data-icon="material-symbols:star"></span>
+                                <span class="iconify" data-icon="material-symbols:star"></span>
+                                <span class="iconify" data-icon="material-symbols:star-half"></span>
+                            </div>
+                            <div class="grey-text para-font font-xxs">(138)</div>    
+                        </div>
+                        <div class="card-sub flex-center flex-row gap-10">
+                            <div class="flex-center"><span class="iconify grey-text font-xs" data-icon="cil:education"></span></div>
+                            <div class="para-font  grey-text">250+ Courses</div>
+                        </div>
+                        <div class="card-sub flex-center flex-row gap-10">
+                            <div class="flex-center"><span class="iconify grey-text font-xs" data-icon="mdi:clock-time-four-outline"></span></div>
+                            <div class="para-font  grey-text">1000+ Hours</div>
+                        </div>
+                        <div class="card-sub flex-center flex-row gap-10">
+                            <div class="flex-center"><span class="iconify grey-text font-xs" data-icon="octicon:project-24"></span></div>
+                            <div class="para-font  grey-text">40+ Projects</div>
+                        </div>
+                        <div class="card-sub flex-center flex-row gap-10">
+                            <div class="flex-center"><span class="iconify grey-text font-xs" data-icon="carbon:certificate"></span></div>
+                            <div class="para-font  grey-text">Verifiable Certificate</div>
+                        </div>
+                        <div class="card-sub flex-center flex-row gap-10">
+                            <div class="flex-center"><span class="iconify grey-text font-xs" data-icon="material-symbols:lock"></span></div>
+                            <div class="para-font  grey-text">Lifetime Access</div>
+                        </div>
+                    </div>
+                    <div class="flex-center-center" style="margin:16px 0;">
+                        <button class="btn-small secondary para-font font-sm primary-text fw-500"> Enroll Now</button>
+                    </div>
+                    
+                </div>
+                  <div class="swiper-slide flex-column shadow-light primary-bg">
+                    <img src="https://cdn.educba.com/academy/wp-content/uploads/2023/04/card-image-1.png" alt="card image">
+                    <div class="card-pad-2">
+                        <h1 class="heading-small fw-800 text-left">JavaScript Certification </h1>
+                       
+                        <div class="rating flex-row flex-center gap-5" style="height:50px;">
+                            <h5 class="rate para-font font-xs" style="color: #FF9529;">4.5</h5>
+                            <div class="star flex-row">
+                                <span class="iconify" data-icon="material-symbols:star"></span>
+                                <span class="iconify" data-icon="material-symbols:star"></span>
+                                <span class="iconify" data-icon="material-symbols:star"></span>
+                                <span class="iconify" data-icon="material-symbols:star"></span>
+                                <span class="iconify" data-icon="material-symbols:star-half"></span>
+                            </div>
+                            <div class="grey-text para-font font-xxs">(138)</div>    
+                        </div>
+                        <div class="card-sub flex-center flex-row gap-10">
+                            <div class="flex-center"><span class="iconify grey-text font-xs" data-icon="cil:education"></span></div>
+                            <div class="para-font  grey-text">250+ Courses</div>
+                        </div>
+                        <div class="card-sub flex-center flex-row gap-10">
+                            <div class="flex-center"><span class="iconify grey-text font-xs" data-icon="mdi:clock-time-four-outline"></span></div>
+                            <div class="para-font  grey-text">1000+ Hours</div>
+                        </div>
+                        <div class="card-sub flex-center flex-row gap-10">
+                            <div class="flex-center"><span class="iconify grey-text font-xs" data-icon="octicon:project-24"></span></div>
+                            <div class="para-font  grey-text">40+ Projects</div>
+                        </div>
+                        <div class="card-sub flex-center flex-row gap-10">
+                            <div class="flex-center"><span class="iconify grey-text font-xs" data-icon="carbon:certificate"></span></div>
+                            <div class="para-font  grey-text">Verifiable Certificate</div>
+                        </div>
+                        <div class="card-sub flex-center flex-row gap-10">
+                            <div class="flex-center"><span class="iconify grey-text font-xs" data-icon="material-symbols:lock"></span></div>
+                            <div class="para-font  grey-text">Lifetime Access</div>
+                        </div>
+                    </div>
+                    <div class="flex-center-center" style="margin:16px 0;">
+                        <button class="btn-small secondary para-font font-sm primary-text fw-500"> Enroll Now</button>
+                    </div>
+                    
+                </div>
+                  <div class="swiper-slide flex-column shadow-light primary-bg">
+                    <img src="https://cdn.educba.com/academy/wp-content/uploads/2023/04/card-image-1.png" alt="card image">
+                    <div class="card-pad-2">
+                        <h1 class="heading-small fw-800 text-left">JavaScript Certification </h1>
+                       
+                        <div class="rating flex-row flex-center gap-5" style="height:50px;">
+                            <h5 class="rate para-font font-xs" style="color: #FF9529;">4.5</h5>
+                            <div class="star flex-row">
+                                <span class="iconify" data-icon="material-symbols:star"></span>
+                                <span class="iconify" data-icon="material-symbols:star"></span>
+                                <span class="iconify" data-icon="material-symbols:star"></span>
+                                <span class="iconify" data-icon="material-symbols:star"></span>
+                                <span class="iconify" data-icon="material-symbols:star-half"></span>
+                            </div>
+                            <div class="grey-text para-font font-xxs">(138)</div>    
+                        </div>
+                        <div class="card-sub flex-center flex-row gap-10">
+                            <div class="flex-center"><span class="iconify grey-text font-xs" data-icon="cil:education"></span></div>
+                            <div class="para-font  grey-text">250+ Courses</div>
+                        </div>
+                        <div class="card-sub flex-center flex-row gap-10">
+                            <div class="flex-center"><span class="iconify grey-text font-xs" data-icon="mdi:clock-time-four-outline"></span></div>
+                            <div class="para-font  grey-text">1000+ Hours</div>
+                        </div>
+                        <div class="card-sub flex-center flex-row gap-10">
+                            <div class="flex-center"><span class="iconify grey-text font-xs" data-icon="octicon:project-24"></span></div>
+                            <div class="para-font  grey-text">40+ Projects</div>
+                        </div>
+                        <div class="card-sub flex-center flex-row gap-10">
+                            <div class="flex-center"><span class="iconify grey-text font-xs" data-icon="carbon:certificate"></span></div>
+                            <div class="para-font  grey-text">Verifiable Certificate</div>
+                        </div>
+                        <div class="card-sub flex-center flex-row gap-10">
+                            <div class="flex-center"><span class="iconify grey-text font-xs" data-icon="material-symbols:lock"></span></div>
+                            <div class="para-font  grey-text">Lifetime Access</div>
+                        </div>
+                    </div>
+                    <div class="flex-center-center" style="margin:16px 0;">
+                        <button class="btn-small secondary para-font font-sm primary-text fw-500"> Enroll Now</button>
+                    </div>
+                    
+                </div>
+                  <div class="swiper-slide flex-column shadow-light primary-bg">
+                    <img src="https://cdn.educba.com/academy/wp-content/uploads/2023/04/card-image-1.png" alt="card image">
+                    <div class="card-pad-2">
+                        <h1 class="heading-small fw-800 text-left">JavaScript Certification </h1>
+                       
+                        <div class="rating flex-row flex-center gap-5" style="height:50px;">
+                            <h5 class="rate para-font font-xs" style="color: #FF9529;">4.5</h5>
+                            <div class="star flex-row">
+                                <span class="iconify" data-icon="material-symbols:star"></span>
+                                <span class="iconify" data-icon="material-symbols:star"></span>
+                                <span class="iconify" data-icon="material-symbols:star"></span>
+                                <span class="iconify" data-icon="material-symbols:star"></span>
+                                <span class="iconify" data-icon="material-symbols:star-half"></span>
+                            </div>
+                            <div class="grey-text para-font font-xxs">(138)</div>    
+                        </div>
+                        <div class="card-sub flex-center flex-row gap-10">
+                            <div class="flex-center"><span class="iconify grey-text font-xs" data-icon="cil:education"></span></div>
+                            <div class="para-font  grey-text">250+ Courses</div>
+                        </div>
+                        <div class="card-sub flex-center flex-row gap-10">
+                            <div class="flex-center"><span class="iconify grey-text font-xs" data-icon="mdi:clock-time-four-outline"></span></div>
+                            <div class="para-font  grey-text">1000+ Hours</div>
+                        </div>
+                        <div class="card-sub flex-center flex-row gap-10">
+                            <div class="flex-center"><span class="iconify grey-text font-xs" data-icon="octicon:project-24"></span></div>
+                            <div class="para-font  grey-text">40+ Projects</div>
+                        </div>
+                        <div class="card-sub flex-center flex-row gap-10">
+                            <div class="flex-center"><span class="iconify grey-text font-xs" data-icon="carbon:certificate"></span></div>
+                            <div class="para-font  grey-text">Verifiable Certificate</div>
+                        </div>
+                        <div class="card-sub flex-center flex-row gap-10">
+                            <div class="flex-center"><span class="iconify grey-text font-xs" data-icon="material-symbols:lock"></span></div>
+                            <div class="para-font  grey-text">Lifetime Access</div>
+                        </div>
+                    </div>
+                    <div class="flex-center-center" style="margin:16px 0;">
+                        <button class="btn-small secondary para-font font-sm primary-text fw-500"> Enroll Now</button>
+                    </div>
+                    
+                </div>
+                  <div class="swiper-slide flex-column shadow-light primary-bg">
+                    <img src="https://cdn.educba.com/academy/wp-content/uploads/2023/04/card-image-1.png" alt="card image">
+                    <div class="card-pad-2">
+                        <h1 class="heading-small fw-800 text-left">JavaScript Certification </h1>
+                       
+                        <div class="rating flex-row flex-center gap-5" style="height:50px;">
+                            <h5 class="rate para-font font-xs" style="color: #FF9529;">4.5</h5>
+                            <div class="star flex-row">
+                                <span class="iconify" data-icon="material-symbols:star"></span>
+                                <span class="iconify" data-icon="material-symbols:star"></span>
+                                <span class="iconify" data-icon="material-symbols:star"></span>
+                                <span class="iconify" data-icon="material-symbols:star"></span>
+                                <span class="iconify" data-icon="material-symbols:star-half"></span>
+                            </div>
+                            <div class="grey-text para-font font-xxs">(138)</div>    
+                        </div>
+                        <div class="card-sub flex-center flex-row gap-10">
+                            <div class="flex-center"><span class="iconify grey-text font-xs" data-icon="cil:education"></span></div>
+                            <div class="para-font  grey-text">250+ Courses</div>
+                        </div>
+                        <div class="card-sub flex-center flex-row gap-10">
+                            <div class="flex-center"><span class="iconify grey-text font-xs" data-icon="mdi:clock-time-four-outline"></span></div>
+                            <div class="para-font  grey-text">1000+ Hours</div>
+                        </div>
+                        <div class="card-sub flex-center flex-row gap-10">
+                            <div class="flex-center"><span class="iconify grey-text font-xs" data-icon="octicon:project-24"></span></div>
+                            <div class="para-font  grey-text">40+ Projects</div>
+                        </div>
+                        <div class="card-sub flex-center flex-row gap-10">
+                            <div class="flex-center"><span class="iconify grey-text font-xs" data-icon="carbon:certificate"></span></div>
+                            <div class="para-font  grey-text">Verifiable Certificate</div>
+                        </div>
+                        <div class="card-sub flex-center flex-row gap-10">
+                            <div class="flex-center"><span class="iconify grey-text font-xs" data-icon="material-symbols:lock"></span></div>
+                            <div class="para-font  grey-text">Lifetime Access</div>
+                        </div>
+                    </div>
+                    <div class="flex-center-center" style="margin:16px 0;">
+                        <button class="btn-small secondary para-font font-sm primary-text fw-500"> Enroll Now</button>
+                    </div>
+                    
+                </div>
+
+                </div>
+                </div>
+              <button class="aio-right secondary flex-center"><span class="iconify primary-text" data-icon="ic:round-keyboard-arrow-right"></span></button>    
+        </div>
+    </section>
+       <!-- This is All in corporate training section -->
+    <section class="secondary-bg">
+        <h2 class="heading">Explore our <strong class="primary-color-text fw-800"> CORPORATE TRAINING PROGRAMS</strong></h2>
+        <div class="corporate flex-center-center gap-30">
+            <div class="card-2 shadow flex-column flex-center-center primary-text-bg">
+                <img src="https://cdn.educba.com/academy/wp-content/uploads/2023/04/ctp-image-1.png" style="padding-bottom:16px;" class="ctp-image" alt="ctp-image-1">
+                <h5 class="primary-color-text text-center para-font font-sm">Business Skills & Development</h5>
+        </div>
+        <div class="card-2 shadow flex-column flex-center-center primary-text-bg">
+          <img src="https://cdn.educba.com/academy/wp-content/uploads/2023/04/ctp-image-2.png" style="padding-bottom:16px;" class="ctp-image" alt="ctp-image-2">
+           <h5 class="primary-color-text text-center para-font font-sm">Human Resource</h5>
+           
+            
+    </div>
+    <div class="card-2 shadow flex-column flex-center-center primary-text-bg">
+        <img src="https://cdn.educba.com/academy/wp-content/uploads/2023/04/ctp-image-3.png" style="padding-bottom:16px;" class="ctp-image" alt="ctp-image-3">
+        <h5 class="primary-color-text text-center para-font font-sm">Project Management</h5>
+</div>
+<div class="card-2 shadow flex-column flex-center-center primary-text-bg">
+    <img src="https://cdn.educba.com/academy/wp-content/uploads/2023/04/ctp-image-4.png"  style="padding-bottom:16px;"class="ctp-image" alt="ctp-image-4">
+    <h5 class="primary-color-text text-center para-font font-sm">Talent Development</h5>
+</div>
+</div>
+<div class="flex-center-center"><button class="btn-big primary para-font font-sm primary-text fw-600"> View All Programs</button></div>
+    </section>
+    <!-- Exam educba section -->
+    <section class="exam primary-bg flex-center-se gap-25">
+        <div class="image-block">
+            <img src="https://cdn.educba.com/academy/wp-content/uploads/2023/04/exam-image.png" alt="">
+        </div>
+        <div class="text-block flex-column gap-10">
+            <h4 class="heading text-left">Prepare for your 
+               <br>
+                 <strong class="secondary-color-text fw-800">Exams </strong>  with Educba</h4>
+                 <div class="grid-4">
+                    <div class="bg-gradient-2 text-center secondary-color-text fw-700 font-xxs flex-center-center para-font">PMP</div>
+                    <div class="bg-gradient-2 text-center secondary-color-text fw-700 font-xxs flex-center-center para-font">CFA1</div>
+                    <div class="bg-gradient-2 text-center secondary-color-text fw-700 font-xxs flex-center-center para-font">CFA2</div>
+                    <div class="bg-gradient-2 text-center secondary-color-text fw-700 font-xxs flex-center-center para-font">FRM1    </div>
+                    <div class="bg-gradient-2 text-center secondary-color-text fw-700 font-xxs flex-center-center para-font">FRM2</div>
+                    <div class="bg-gradient-2 text-center secondary-color-text fw-700 font-xxs flex-center-center para-font">CFP</div>
+                    <div class="bg-gradient-2 text-center secondary-color-text fw-700 font-xxs flex-center-center para-font">CMA1</div>
+                    <div class="bg-gradient-2 text-center secondary-color-text fw-700 font-xxs flex-center-center para-font">CMA2</div>
+                 </div>
+                 <div class="flex-top flex-row" style="padding-top:32px;">
+                    <button class="btn-big secondary para-font font-sm primary-text fw-500"> Explore More</button>
+                 </div>
+        </div>
+    </section>
+    <!-- Executive programs section -->
+    <section class="exam secondary-bg flex-center-se gap-25">
+        <div class="text-block flex-column gap-5">
+            <h5 class="heading text-left">Enhance yourself with 
+                                <strong class="primary-color-text fw-800">Executive Programs</strong></h5>
+                 <div class="grid-4">
+                    <div class="bg-gradient-1 text-center primary-color-text fw-700 font-xxs flex-center-center para-font">CIBEP</div>
+                    <div class="bg-gradient-1 text-center primary-color-text fw-700 font-xxs flex-center-center para-font">CFMEP</div>
+                    <div class="bg-gradient-1 text-center primary-color-text fw-700 font-xxs flex-center-center para-font">CMEEP</div>
+                    <div class="bg-gradient-1 text-center primary-color-text fw-700 font-xxs flex-center-center para-font">ADSEP    </div>
+                    <div class="bg-gradient-1 text-center primary-color-text fw-700 font-xxs flex-center-center para-font">CPDEP </div>
+                    <div class="bg-gradient-1 text-center primary-color-text fw-700 font-xxs flex-center-center para-font">CTQMEP</div>
+                    <div class="bg-gradient-1 text-center primary-color-text fw-700 font-xxs flex-center-center para-font">CJDEP </div>
+                    <div class="bg-gradient-1 text-center primary-color-text fw-700 font-xxs flex-center-center para-font">CJSDEP</div>
+                 </div>
+                 <div class="flex-top flex-row" style="padding-top:32px;">
+                    <button class="btn-big primary para-font font-sm primary-text fw-500">View All Programs</button>
+                 </div>
+        </div>
+        <div class="image-block">
+            <img src="https://cdn.educba.com/academy/wp-content/uploads/2023/04/exam-image-2.png" alt="">
+        </div>
+        
+    </section>
+    <!-- Testimonial section -->
+    <section class="primary-bg">
+        <h1 class="heading">Know from <strong class="secondary-color-text fw-800">OUR ALUMNI </strong></h1>
+        <div class="testimony flex-center-center flex-row gap-30">
+            <div class="card-3 primary-text-bg shadow flex-column">
+                <h1 class="font-xl heading-special">"</h1>
+                <p class="heading-font font-xxs">This course was short but very informative and very helpful for an aspiring leader like myself. It also helped me understand how to view or understand when I receive feedback. I highly recommend it!!</p>
+                <div class="flex-row flex-center-start gap-25" style="padding: 24px;">
+                    <div class="image">
+                        <img src="https://cdn.educba.com/academy/wp-content/uploads/2023/04/testimonial-image.png" alt="testimonial image">
+                    </div>
+                    <div class="flex-column">
+                        <p class="para-font secondary-color-text font-sm fw-800">Sahameer Khalid   </p>
+                        <p class="para-font font-xxs grey-text" style="padding:8px 0;">Student</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card-3 primary-text-bg shadow flex-column">
+                <h1 class="font-xl heading-special">"</h1>
+                <p class="heading-font font-xxs">This course was short but very informative and very helpful for an aspiring leader like myself. It also helped me understand how to view or understand when I receive feedback. I highly recommend it!!</p>
+                <div class="flex-row flex-center-start gap-25" style="padding: 24px;">
+                    <div class="image">
+                        <img src="https://cdn.educba.com/academy/wp-content/uploads/2023/04/testimonial-image.png" alt="testimonial image">
+                    </div>
+                    <div class="flex-column">
+                        <p class="para-font secondary-color-text font-sm fw-800">Sahameer Khalid   </p>
+                        <p class="para-font font-xxs grey-text" style="padding:8px 0;">Student</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card-3 primary-text-bg shadow flex-column">
+                <h1 class="font-xl heading-special">"</h1>
+                <p class="heading-font font-xxs">This course was short but very informative and very helpful for an aspiring leader like myself. It also helped me understand how to view or understand when I receive feedback. I highly recommend it!!</p>
+                <div class="flex-row flex-center-start gap-25" style="padding: 24px;">
+                    <div class="image">
+                        <img src="https://cdn.educba.com/academy/wp-content/uploads/2023/04/testimonial-image.png" alt="testimonial image">
+                    </div>
+                    <div class="flex-column">
+                        <p class="para-font secondary-color-text font-sm fw-800">Sahameer Khalid   </p>
+                        <p class="para-font font-xxs grey-text" style="padding:8px 0;">Student</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- This is clients section -->
+    <section class="secondary-bg"> 
+        <h1 class="heading ">Our 
+        <strong class="primary-color-text fw-800">CLIENTS</strong></h1>
+            <div class="flex-center-center gap-40 flex-row flex-wrap">
+                <img src="https://cdn.educba.com/academy/wp-content/uploads/2023/04/client-image-1.png" alt="client-images">
+                <img src="https://cdn.educba.com/academy/wp-content/uploads/2023/04/client-image-2.png" alt="client-images">
+                <img src="https://cdn.educba.com/academy/wp-content/uploads/2023/04/client-image-3.png" alt="client-images">
+                <img src="https://cdn.educba.com/academy/wp-content/uploads/2023/04/client-image-4.png" alt="client-images">
+                <img src="https://cdn.educba.com/academy/wp-content/uploads/2023/04/client-image-5.png" alt="client-images">
+                <img src="https://cdn.educba.com/academy/wp-content/uploads/2023/04/client-image-6.png" alt="client-images">
+                <img src="https://www.educba.com/academy/wp-content/uploads/2023/04/client-image-7.png" alt="client-images">
+                <img src="https://cdn.educba.com/academy/wp-content/uploads/2023/04/client-image-8.png" alt="client-images">
+                <img src="https://cdn.educba.com/academy/wp-content/uploads/2023/04/client-image-9.png" alt="client-images">
+                <img src="https://cdn.educba.com/academy/wp-content/uploads/2023/04/client-image-10.png" alt="client-images">
+                <img src="https://cdn.educba.com/academy/wp-content/uploads/2023/04/client-image-11.png" alt="client-images">
+            </div>
+    </section>
+    <!-- This is instructor section -->
+    <section class="exam primary-bg flex-center-se gap-25">
+        <div class="image-block">
+            <img src="https://cdn.educba.com/academy/wp-content/uploads/2023/04/instructor-image.png" alt="">
+        </div>
+        <div class="text-block flex-column gap-10">
+            <h1 class="heading font-lg text-left">Become an <strong class="secondary-color-text fw-800">INSTRUCTOR </strong> <br> Be a Part of us.</h1>
+                 <p class="para grey-text font-sm">Empower the next generation and share your expertise - become an instructor today!</p>
+                 <div class="flex-top flex-row" style="padding-top:32px;">
+                    <button class="btn-big secondary para-font font-sm primary-text fw-500"> Get Started</button>
+                 </div>
+        </div>
+    </section>
+    <!-- This is get in touch section -->
+    <section class="get-in-touch secondary-bg flex-center-se gap-25">
+        
+        <div class="text-block flex-column gap-5">
+            <h1 class="heading font-lg text-left"><strong class="primary-color-text fw-800">GET IN TOUCH</strong></h1>
+                 <p class="para grey-text font-xs">We are here for you. Reach out for any queries</p>
+                 <form>
+                    <input type="text" name="name" id="name" class="font-xxs heading-font fw-500" placeholder="Name">
+                    <input type="tel" name="phone" id="phone" class="font-xxs heading-font fw-500" placeholder="Mobile Number">
+                    <input type="email" name="email" id="email" class="font-xxs heading-font fw-500" placeholder="Email Address">
+                    <textarea style="resize: none;" name="message" class="font-xxs heading-font fw-500" id="message" cols="30" rows="4" placeholder="Message"></textarea>
+                    <input style="border: none;outline: none;font-size: 20px;padding:24px 28px;border-radius: 8px;background-color: var(--primary-color) !important; font-family: 'Roboto';font-size: 20px;color: var(--text-primary)!important;font-weight: 500 !important;" type="submit" value="Submit">
+                 </form>
+                
+        </div>
+        <div class="image-block">
+            <img src="https://cdn.educba.com/academy/wp-content/uploads/2023/04/get-in-touch.png" alt="">
+        </div>
+    </section>
+	
+	<script src="https://cdn.educba.com/academy/wp-content/themes/business-pro-theme/assets/addons/swiper-9.1.1/package/swiper-bundle.js"></script>
+	
+	<script>
+		const swiper = new Swiper('.skillswiper', {
+    // Optional parameters
+    direction: 'horizontal',
+    loop: true, 
+    slidesPerView:5, 
+    spaceBetween: 15,
+      // Navigation arrows
+    navigation: {
+      nextEl: '.right-arrow',
+      prevEl: '.left-arrow',
+    },  
+    breakpoints: {
+      // when window width is >= 320px
+      320: {
+        slidesPerView: 1,
+        spaceBetween: 20
+      },
+      // when window width is >= 480px
+      480: {
+        slidesPerView: 2,
+        spaceBetween: 10
+      },
+      // when window width is >= 640px
+      640: {
+        slidesPerView: 2,
+        spaceBetween: 20
+      },
+      920: {
+        slidesPerView: 5,
+        spaceBetween: 15
+      }
+    }
+  
+    
+  });
+  const aioswiper = new Swiper('.aioswiper', {
+    // Optional parameters
+    direction: 'horizontal',
+    loop: true, 
+    slidesPerView:5, 
+    spaceBetween: 15,
+      // Navigation arrows
+    navigation: {
+      nextEl: '.aio-right',
+      prevEl: '.aio-left',
+    },  
+    breakpoints: {
+      // when window width is >= 320px
+      320: {
+        slidesPerView: 1,
+        spaceBetween: 20
+      },
+      // when window width is >= 480px
+      480: {
+        slidesPerView: 2,
+        spaceBetween: 10
+      },
+      // when window width is >= 640px
+      640: {
+        slidesPerView: 2,
+        spaceBetween: 20
+      },
+      920: {
+        slidesPerView: 5,
+        spaceBetween: 15
+      }
+    } 
+  });
+ 	</script>
+    <script src="https://code.iconify.design/3/3.1.0/iconify.min.js"></script>
+

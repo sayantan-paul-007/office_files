@@ -1,0 +1,1330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+  />
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/media.css">
+     <title>Home</title>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="flex-center-sb">
+        <img src="/assets/Logo.png" alt="" class="logo">
+        <div class="nav-center flex-center">
+            <button class="search-btn primary primary-text flex-center">All Courses&nbsp;<span style="font-size: 1.5rem;" class="iconify down-arrow" data-icon="ic:baseline-arrow-drop-down"></span></button> 
+            <div class="search-bar">
+                <input class="heading-font fw-600 root-text" type="text" name="search" id="search" placeholder="Search for tutorials / courses">
+                <!-- Search Icon// -->
+                <div class="search-icon"><span class="iconify primary-color-text" style="font-size: 1.5rem;" data-icon="material-symbols:search"></span>
+                </div>
+                <!-- // -->
+            </div>
+          </div>
+        <div class="nav-right flex-center-sb gap-25">
+            <a class="a-plain link-text heading-font secondary-text fw-600" href="https://www.educba.com/blog/">Blog</a>
+            <a class="a-plain link-text heading-font secondary-text fw-600" href="https://www.educba.com/tutorials/">Free Courses</a>
+            <a class="a-plain link-text heading-font secondary-text fw-600" href="https://www.educba.com/courses/">Certificate Courses</a>
+            <button class="btn primary primary-text fw-800">LOGIN</button>
+        </div>
+        <div class="ham-icon" onclick="showMenu()">
+            <span class="iconify font-lg" data-icon="ic:round-menu"></span>
+        </div>
+        <div class="ham-menu">
+            <ul class="hamburger">
+                <li class="close" onclick="hideMenu()"><span class="iconify " data-icon="material-symbols:close"></span></li>
+                <li><div class="search-bar">
+                    <input class="heading-font fw-600 root-text" style="border-radius: 6px;" type="text" name="search" id="search" placeholder="Search for tutorials / courses">
+                    <!-- Search Icon// -->
+                    <div class="search-icon"><span class="iconify primary-color-text" style="font-size: 1.5rem;" data-icon="material-symbols:search"></span>
+                    </div>
+                    <!-- // -->
+                </div></li>
+                <li><a class="a-plain link-text heading-font secondary-text fw-600" href="https://www.educba.com/blog/">Blog</a></li>
+                <li>            <a class="a-plain link-text heading-font secondary-text fw-600" href="https://www.educba.com/tutorials/">Free Courses</a></li>
+                <li>            <a class="a-plain link-text heading-font secondary-text fw-600" href="https://www.educba.com/courses/">Certificate Courses</a></li>
+                <li>            <button class="btn primary primary-text fw-800">LOGIN</button></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- This is the banner section -->
+    <section class="flex-center-center banner">
+        <div class="text-block flex-column"><h1 class="banner-title primary-color-text fw-700">Bridge the Gap
+            Upskill Yourself </h1>
+        <p class="para-font para-md grey-text">Get yourself job ready with our online video courses taught by real-world professionals.Get yourself job ready with our online video</p>
+        <div class="banner-button"><button class="btn-big fw-700 primary primary-text" style="margin: 2rem 0;">Explore Courses</button></div>
+    </div>
+      <div class="image-block"><img class="banner-image" src="/assets/Blob.png" alt=""></div>
+    </section>
+    <!-- This is the number section -->
+    <section class="numbers primary flex-center-se primary-text gap-40">
+        <div class="flex-column flex-center-center">
+            <img style="padding-bottom: 1rem;"src="/assets/numbers-first-image.png" alt="">
+            <h3 class="font-xl para-font fw-700">2000000+</h3>
+            <p class="para fw-300">Registered Learners</p>
+        </div>
+        <div class="flex-column flex-center-center">
+            <img style="padding-bottom: 1rem;"  src="/assets/numbers-second-image.png" alt="">
+            <h3 class="font-xl para-font fw-700">5000+</h3>
+            <p class="para fw-300">Self paced courses   </p>
+        </div>
+        <div class="flex-column flex-center-center">
+            <img style="padding-bottom: 1rem;"  src="/assets/numbers-third-image.png" alt="">
+            <h3 class="font-xl para-font fw-700">50000+</h3>
+            <p class="para fw-300">Hours of content</p>
+        </div>
+    </section>
+    <!-- This is top categories section -->
+    <section class="secondary-bg">
+        <h1 class="heading">Our <strong class="primary-color-text fw-800"> TOP CATEGORIES</strong></h1>
+        <div class="categories flex-center-se flex-row">
+             <img class="banner-image" src="/assets/category-img.png" alt="category image">
+            <div class="grid-3">
+                <div class="light-bg flex-column primary-color-text ">
+                    <div class="flex-row flex-center gap-25 main-icon ">
+                        <span class="iconify font-l" data-icon="carbon:finance"></span>
+                        <p class="para-font fw-600 font-sm">Finance</p>
+                    </div>
+                    <div class="grid-text flex-row flex-center gap-10">
+                        <span class="iconify font-sm" data-icon="cil:education"></span>
+                        <p class="para-font  font-xxs">250+ Courses</p>
+                    </div>
+                    <div class="grid-text flex-row flex-center gap-10">
+                        <span class="iconify font-sm" data-icon="ep:video-play"></span>
+                        <p class="para-font  font-xxs">1000+ Hours </p>
+                    </div>
+
+                </div>
+                <div class="light-bg flex-column primary-color-text ">
+                    <div class="flex-row flex-center gap-25 main-icon ">
+                        <span class="iconify font-l" data-icon="carbon:network-4"></span>
+                        <p class="para-font fw-600 font-xs">Data Science</p>
+                    </div>
+                    <div class="grid-text flex-row flex-center gap-10">
+                        <span class="iconify font-sm" data-icon="cil:education"></span>
+                        <p class="para-font  font-xxs">360+ Courses</p>
+                    </div>
+                    <div class="grid-text flex-row flex-center gap-10">
+                        <span class="iconify font-sm" data-icon="ep:video-play"></span>
+                        <p class="para-font  font-xxs">1500+ Hours </p>
+                    </div>
+
+                </div>
+                <div class="light-bg flex-column primary-color-text ">
+                    <div class="flex-row flex-center gap-25 main-icon ">
+                        <span class="iconify font-xl" data-icon="ph:code"></span>
+                        <p class="para-font fw-600" style="font-size: 14px;">Programming and Development</p>
+                    </div>
+                    <div class="grid-text flex-row flex-center gap-10">
+                        <span class="iconify font-sm" data-icon="cil:education"></span>
+                        <p class="para-font  font-xxs">600+ Courses</p>
+                    </div>
+                    <div class="grid-text flex-row flex-center gap-10">
+                        <span class="iconify font-sm" data-icon="ep:video-play"></span>
+                        <p class="para-font  font-xxs">3000+ Hours </p>
+                    </div>
+
+                </div>
+                <div class="light-bg flex-column primary-color-text ">
+                    <div class="flex-row flex-center gap-25 main-icon ">
+                        <span class="iconify font-l" data-icon="ri:file-excel-2-line"></span>
+                        <p class="para-font fw-600 font-sm">Excel</p>
+                    </div>
+                    <div class="grid-text flex-row flex-center gap-10">
+                        <span class="iconify font-sm" data-icon="cil:education"></span>
+                        <p class="para-font  font-xxs">120+ Courses</p>
+                    </div>
+                    <div class="grid-text flex-row flex-center gap-10">
+                        <span class="iconify font-sm" data-icon="ep:video-play"></span>
+                        <p class="para-font  font-xxs">500+ Hours </p>
+                    </div>
+
+                </div>
+                <div class="light-bg flex-column primary-color-text ">
+                    <div class="flex-row flex-center gap-25 main-icon ">
+                        <span class="iconify font-l" data-icon="iconoir:design-pencil"></span>
+                        <p class="para-font fw-600 font-sm">Design</p>
+                    </div>
+                    <div class="grid-text flex-row flex-center gap-10">
+                        <span class="iconify font-sm" data-icon="cil:education"></span>
+                        <p class="para-font  font-xxs">280+ Courses</p>
+                    </div>
+                    <div class="grid-text flex-row flex-center gap-10">
+                        <span class="iconify font-sm" data-icon="ep:video-play"></span>
+                        <p class="para-font  font-xxs">2000+ Hours </p>
+                    </div>
+                </div>
+                <div class="light-bg flex-column primary-color-text ">
+                    <div class="flex-row flex-center gap-25 main-icon ">
+                        <span class="iconify font-l" data-icon="octicon:project-roadmap-24"></span>
+                        <p class="para-font fw-600 font-xxs">Project Management</p>
+                    </div>
+                    <div class="grid-text flex-row flex-center gap-10">
+                        <span class="iconify font-sm" data-icon="cil:education"></span>
+                        <p class="para-font  font-xxs">100+ Courses</p>
+                    </div>
+                    <div class="grid-text flex-row flex-center gap-10">
+                        <span class="iconify font-sm" data-icon="ep:video-play"></span>
+                        <p class="para-font  font-xxs">400+ Hours </p>
+                    </div>
+
+                </div>
+                <div class="light-bg flex-column primary-color-text ">
+                    <div class="flex-row flex-center gap-25 main-icon ">
+                        <img src="./assets/icon.png" alt="">
+                        <p class="para-font fw-600 font-xxs">Personal Development</p>
+                    </div>
+                    <div class="grid-text flex-row flex-center gap-10">
+                        <span class="iconify font-sm" data-icon="cil:education"></span>
+                        <p class="para-font  font-xxs">40+ Courses</p>
+                    </div>
+                    <div class="grid-text flex-row flex-center gap-10">
+                        <span class="iconify font-sm" data-icon="ep:video-play"></span>
+                        <p class="para-font  font-xxs">80+ Hours </p>
+                    </div>
+
+                </div>
+                <div class="light-bg flex-column primary-color-text ">
+                    <div class="flex-row flex-center gap-25 main-icon ">
+                        <span class="iconify font-l" data-icon="nimbus:marketing"></span>
+                        <p class="para-font fw-600 font-sm">Marketing</p>
+                    </div>
+                    <div class="grid-text flex-row flex-center gap-10">
+                        <span class="iconify font-sm" data-icon="cil:education"></span>
+                        <p class="para-font  font-xxs">170+ Courses</p>
+                    </div>
+                    <div class="grid-text flex-row flex-center gap-10">
+                        <span class="iconify font-sm" data-icon="ep:video-play"></span>
+                        <p class="para-font  font-xxs">800+ Hours </p>
+                    </div>
+
+                </div>
+                <div class="light-bg flex-column primary-color-text ">
+                    <div class="flex-row flex-center gap-25 main-icon ">
+                        <span class="iconify font-l" data-icon="material-symbols:person-search-outline"></span>
+                        <p class="para-font fw-600 font-xs">Human Resource</p>
+                    </div>
+                    <div class="grid-text flex-row flex-center gap-10">
+                        <span class="iconify font-sm" data-icon="cil:education"></span>
+                        <p class="para-font  font-xxs">25+ Courses</p>
+                    </div>
+                    <div class="grid-text flex-row flex-center gap-10">
+                        <span class="iconify font-sm" data-icon="ep:video-play"></span>
+                        <p class="para-font  font-xxs">100+ Hours </p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- This is top Certification section -->
+    <section class="primary-bg">
+        <h1 class="heading">Explore our <strong class="secondary-color-text fw-800"> TOP CERTIFICATION PROGRAMMES</strong></h1>
+        <p class="text-center para-font para-md" style="padding: 0; padding-bottom: 2rem;">These programmes includes everything from scratch to end</p>
+        <div class=" certificate flex-row flex-center-center gap-25">
+            <div class="card flex-column shadow">
+                <img src="/assets/card-image-1.png" alt="card image">
+                <div class="card-pad">
+                <h1 class="heading-small fw-800 text-left">JavaScript Certification </h1>
+                <p class=" grey-text para-font">Brad Traversy</p>
+                <div class="rating flex-row flex-center gap-5" style=" padding: 0.5rem 0;">
+                    <h5 class="rate para-font font-xs" style="color: #FF9529;">4.5</h5>
+                    <div class="star flex-row ">
+                        <span class="iconify" data-icon="material-symbols:star"></span>
+                        <span class="iconify" data-icon="material-symbols:star"></span>
+                        <span class="iconify" data-icon="material-symbols:star"></span>
+                        <span class="iconify" data-icon="material-symbols:star"></span>
+                        <span class="iconify" data-icon="material-symbols:star-half"></span>
+                    </div>
+                    <div class="grey-text para-font font-xxs">(138)</div>
+                </div>
+            </div>
+            <div class="flex-center-center" style="margin: 1rem 0;">
+                <button class="btn secondary para-font font-sm primary-text fw-600"> Enroll Now</button>
+            </div>
+            </div>
+            <div class="card flex-column shadow">
+                <img src="/assets/card-image-1.png" alt="card image">
+                <div class="card-pad">
+                <h1 class="heading-small fw-800 text-left">JavaScript Certification </h1>
+                <p class=" grey-text para-font">Brad Traversy</p>
+                <div class="rating flex-row flex-center gap-5" style=" padding: 0.5rem 0;">
+                    <h5 class="rate para-font font-xs" style="color: #FF9529;">4.5</h5>
+                    <div class="star flex-row">
+                        <span class="iconify" data-icon="material-symbols:star"></span>
+                        <span class="iconify" data-icon="material-symbols:star"></span>
+                        <span class="iconify" data-icon="material-symbols:star"></span>
+                        <span class="icdivonify" data-icon="material-symbols:star"></span>
+                        <span class="iconify" data-icon="material-symbols:star-half"></span>
+                    </div>
+                    <div class="grey-text para-font font-xxs">(138)</div>
+                </div>
+            </div>
+            <div class="flex-center-center" style="margin: 1rem 0;">
+                <button class="btn secondary para-font font-sm primary-text fw-600"> Enroll Now</button>
+            </div>
+            </div> <div class="card flex-column shadow">
+                <img src="/assets/card-image-1.png" alt="card image">
+                <div class="card-pad">
+                <h1 class="heading-small fw-800 text-left">JavaScript Certification </h1>
+                <p class=" grey-text para-font">Brad Traversy</p>
+                <div class="rating flex-row flex-center gap-5" style=" padding: 0.5rem 0;">
+                    <h5 class="rate para-font font-xs" style="color: #FF9529;">4.5</h5>
+                    <div class="star flex-row">
+                        <span class="iconify" data-icon="material-symbols:star"></span>
+                        <span class="iconify" data-icon="material-symbols:star"></span>
+                        <span class="iconify" data-icon="material-symbols:star"></span>
+                        <span class="iconify" data-icon="material-symbols:star"></span>
+                        <span class="iconify" data-icon="material-symbols:star-half"></span>
+                    </div>
+                    <div class="grey-text para-font font-xxs">(138)</div>
+                </div>
+            </div>
+            <div class="flex-center-center" style="margin: 1rem 0;">
+                <button class="btn secondary para-font font-sm primary-text fw-600"> Enroll Now</button>
+            </div>
+            </div> <div class="card flex-column shadow">
+                <img src="/assets/card-image-1.png" alt="card image">
+                <div class="card-pad">
+                <h1 class="heading-small fw-800 text-left">JavaScript Certification </h1>
+                <p class=" grey-text para-font">Brad Traversy</p>
+                <div class="rating flex-row flex-center gap-5" style=" padding: 0.5rem 0;">
+                    <h5 class="rate para-font font-xs" style="color: #FF9529;">4.5</h5>
+                    <div class="star flex-row">
+                        <span class="iconify" data-icon="material-symbols:star"></span>
+                        <span class="iconify" data-icon="material-symbols:star"></span>
+                        <span class="iconify" data-icon="material-symbols:star"></span>
+                        <span class="iconify" data-icon="material-symbols:star"></span>
+                        <span class="iconify" data-icon="material-symbols:star-half"></span>
+                    </div>
+                    <div class="grey-text para-font font-xxs">(138)</div>
+                </div>
+            </div>
+            <div class="flex-center-center" style="margin: 1rem 0;">
+                <button class="btn secondary para-font font-sm primary-text fw-600"> Enroll Now</button>
+            </div>
+            </div> <div class="card flex-column shadow">
+                <img src="/assets/card-image-1.png" alt="card image">
+                <div class="card-pad">
+                <h1 class="heading-small fw-800 text-left">JavaScript Certification </h1>
+                <p class=" grey-text para-font">Brad Traversy</p>
+                <div class="rating flex-row flex-center gap-5" style=" padding: 0.5rem 0;">
+                    <h5 class="rate para-font font-xs" style="color: #FF9529;">4.5</h5>
+                    <div class="star flex-row flex-center">
+                        <span class="iconify" data-icon="material-symbols:star"></span>
+                        <span class="iconify" data-icon="material-symbols:star"></span>
+                        <span class="iconify" data-icon="material-symbols:star"></span>
+                        <span class="iconify" data-icon="material-symbols:star"></span>
+                        <span class="iconify" data-icon="material-symbols:star-half"></span>
+                    </div>
+                    <div class="grey-text para-font font-xxs">(138)</div>
+                </div>
+            </div>
+            <div class="flex-center-center" style="margin: 1rem 0;">
+                <button class="btn secondary para-font font-sm primary-text fw-600"> Enroll Now</button>
+            </div>
+            </div>
+        </div>
+        <div class="flex-center-center" style="margin: 2.5rem 0 1.5rem 0;">
+            <button class="btn-big secondary para-font font-sm primary-text fw-600"> View All Programs</button>
+        </div>
+    </section>
+    <!-- This is Skill Up section -->
+    <section class="secondary-bg pad-0  ">
+        <h1 class="heading">Get yourself <strong class="primary-color-text fw-800"> SKILLED UP</strong> for<strong class="primary-color-text fw-800"> FREE</strong></h1>
+        <div class="swiper-container flex-center-center gap-10">
+            <button class="left-arrow primary flex-center"><span class="iconify primary-text" data-icon="ic:round-keyboard-arrow-left"></span></button>
+            <div class="swiper skillswiper">
+                               <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                  <!-- Slides -->
+                  <div class="swiper-slide flex-column shadow-light primary-bg">
+                    <img src="/assets/card-image-1.png" alt="card image">
+                    <div class="card-pad-2">
+                        <h1 class="heading-small fw-800 text-left">JavaScript Certification </h1>
+                       
+                        <div class="rating flex-row flex-center gap-5" style=" padding: 0.5rem 0;">
+                            <h5 class="rate para-font font-xs" style="color: #FF9529;">4.5</h5>
+                            <div class="star flex-row">
+                                <span class="iconify" data-icon="material-symbols:star"></span>
+                                <span class="iconify" data-icon="material-symbols:star"></span>
+                                <span class="iconify" data-icon="material-symbols:star"></span>
+                                <span class="iconify" data-icon="material-symbols:star"></span>
+                                <span class="iconify" data-icon="material-symbols:star-half"></span>
+                            </div>
+                            <div class="grey-text para-font font-xxs">(138)</div>    
+                        </div>
+                        <div class="card-sub flex-center flex-row gap-10">
+                            <div class="flex-center"><span class="iconify grey-text font-xs" data-icon="cil:education"></span></div>
+                            <div class="para-font grey-text">1 Course   </div>
+                        </div>
+                        <div class="card-sub flex-center flex-row gap-10">
+                            <div class="flex-center"><span class="iconify grey-text font-xs" data-icon="mdi:clock-time-four-outline"></span></div>
+                            <div class="para-font grey-text">1 Hour</div>
+                        </div>
+                        <div class="card-sub flex-center flex-row gap-10">
+                            <div class="flex-center"><span class="iconify grey-text font-xs" data-icon="material-symbols:lock"></span></div>
+                            <div class="para-font grey-text">Lifetime Access</div>
+                        </div>
+                    </div>
+                    <div class="flex-center-center" style="margin: 1rem 0;">
+                        <button class="btn-small primary para-font font-sm primary-text fw-500"> Enroll Now</button>
+                    </div>
+                    
+                </div>
+                <div class="swiper-slide flex-column shadow-light primary-bg">
+                    <img src="/assets/card-image-1.png" alt="card image">
+                    <div class="card-pad-2">
+                        <h1 class="heading-small fw-800 text-left">JavaScript Certification </h1>
+                       
+                        <div class="rating flex-row flex-center gap-5" style=" padding: 0.5rem 0;">
+                            <h5 class="rate para-font font-xs" style="color: #FF9529;">4.5</h5>
+                            <div class="star flex-row">
+                                <span class="iconify" data-icon="material-symbols:star"></span>
+                                <span class="iconify" data-icon="material-symbols:star"></span>
+                                <span class="iconify" data-icon="material-symbols:star"></span>
+                                <span class="iconify" data-icon="material-symbols:star"></span>
+                                <span class="iconify" data-icon="material-symbols:star-half"></span>
+                            </div>
+                            <div class="grey-text para-font font-xxs">(138)</div>    
+                        </div>
+                        <div class="card-sub flex-center flex-row gap-10">
+                            <div class="flex-center"><span class="iconify grey-text font-xs" data-icon="cil:education"></span></div>
+                            <div class="para-font grey-text">1 Course   </div>
+                        </div>
+                        <div class="card-sub flex-center flex-row gap-10">
+                            <div class="flex-center"><span class="iconify grey-text font-xs" data-icon="mdi:clock-time-four-outline"></span></div>
+                            <div class="para-font grey-text">1 Hour</div>
+                        </div>
+                        <div class="card-sub flex-center flex-row gap-10">
+                            <div class="flex-center"><span class="iconify grey-text font-xs" data-icon="material-symbols:lock"></span></div>
+                            <div class="para-font grey-text">Lifetime Access</div>
+                        </div>
+                    </div>
+                    <div class="flex-center-center" style="margin: 1rem 0;">
+                        <button class="btn-small primary para-font font-sm primary-text fw-500"> Enroll Now</button>
+                    </div>
+                    
+                </div>  <div class="swiper-slide flex-column shadow-light primary-bg">
+                    <img src="/assets/card-image-1.png" alt="card image">
+                    <div class="card-pad-2">
+                        <h1 class="heading-small fw-800 text-left">JavaScript Certification </h1>
+                       
+                        <div class="rating flex-row flex-center gap-5" style=" padding: 0.5rem 0;">
+                            <h5 class="rate para-font font-xs" style="color: #FF9529;">4.5</h5>
+                            <div class="star flex-row">
+                                <span class="iconify" data-icon="material-symbols:star"></span>
+                                <span class="iconify" data-icon="material-symbols:star"></span>
+                                <span class="iconify" data-icon="material-symbols:star"></span>
+                                <span class="iconify" data-icon="material-symbols:star"></span>
+                                <span class="iconify" data-icon="material-symbols:star-half"></span>
+                            </div>
+                            <div class="grey-text para-font font-xxs">(138)</div>    
+                        </div>
+                        <div class="card-sub flex-center flex-row gap-10">
+                            <div class="flex-center"><span class="iconify grey-text font-xs" data-icon="cil:education"></span></div>
+                            <div class="para-font grey-text">1 Course   </div>
+                        </div>
+                        <div class="card-sub flex-center flex-row gap-10">
+                            <div class="flex-center"><span class="iconify grey-text font-xs" data-icon="mdi:clock-time-four-outline"></span></div>
+                            <div class="para-font grey-text">1 Hour</div>
+                        </div>
+                        <div class="card-sub flex-center flex-row gap-10">
+                            <div class="flex-center"><span class="iconify grey-text font-xs" data-icon="material-symbols:lock"></span></div>
+                            <div class="para-font grey-text">Lifetime Access</div>
+                        </div>
+                    </div>
+                    <div class="flex-center-center" style="margin: 1rem 0;">
+                        <button class="btn-small primary para-font font-sm primary-text fw-500"> Enroll Now</button>
+                    </div>
+                    
+                </div>  <div class="swiper-slide flex-column shadow-light primary-bg">
+                    <img src="/assets/card-image-1.png" alt="card image">
+                    <div class="card-pad-2">
+                        <h1 class="heading-small fw-800 text-left">JavaScript Certification </h1>
+                       
+                        <div class="rating flex-row flex-center gap-5" style=" padding: 0.5rem 0;">
+                            <h5 class="rate para-font font-xs" style="color: #FF9529;">4.5</h5>
+                            <div class="star flex-row">
+                                <span class="iconify" data-icon="material-symbols:star"></span>
+                                <span class="iconify" data-icon="material-symbols:star"></span>
+                                <span class="iconify" data-icon="material-symbols:star"></span>
+                                <span class="iconify" data-icon="material-symbols:star"></span>
+                                <span class="iconify" data-icon="material-symbols:star-half"></span>
+                            </div>
+                            <div class="grey-text para-font font-xxs">(138)</div>    
+                        </div>
+                        <div class="card-sub flex-center flex-row gap-10">
+                            <div class="flex-center"><span class="iconify grey-text font-xs" data-icon="cil:education"></span></div>
+                            <div class="para-font grey-text">1 Course   </div>
+                        </div>
+                        <div class="card-sub flex-center flex-row gap-10">
+                            <div class="flex-center"><span class="iconify grey-text font-xs" data-icon="mdi:clock-time-four-outline"></span></div>
+                            <div class="para-font grey-text">1 Hour</div>
+                        </div>
+                        <div class="card-sub flex-center flex-row gap-10">
+                            <div class="flex-center"><span class="iconify grey-text font-xs" data-icon="material-symbols:lock"></span></div>
+                            <div class="para-font grey-text">Lifetime Access</div>
+                        </div>
+                    </div>
+                    <div class="flex-center-center" style="margin: 1rem 0;">
+                        <button class="btn-small primary para-font font-sm primary-text fw-500"> Enroll Now</button>
+                    </div>
+                    
+                </div>  <div class="swiper-slide flex-column shadow-light primary-bg">
+                    <img src="/assets/card-image-1.png" alt="card image">
+                    <div class="card-pad-2">
+                        <h1 class="heading-small fw-800 text-left">JavaScript Certification </h1>
+                       
+                        <div class="rating flex-row flex-center gap-5" style=" padding: 0.5rem 0;">
+                            <h5 class="rate para-font font-xs" style="color: #FF9529;">4.5</h5>
+                            <div class="star flex-row">
+                                <span class="iconify" data-icon="material-symbols:star"></span>
+                                <span class="iconify" data-icon="material-symbols:star"></span>
+                                <span class="iconify" data-icon="material-symbols:star"></span>
+                                <span class="iconify" data-icon="material-symbols:star"></span>
+                                <span class="iconify" data-icon="material-symbols:star-half"></span>
+                            </div>
+                            <div class="grey-text para-font font-xxs">(138)</div>    
+                        </div>
+                        <div class="card-sub flex-center flex-row gap-10">
+                            <div class="flex-center"><span class="iconify grey-text font-xs" data-icon="cil:education"></span></div>
+                            <div class="para-font grey-text">1 Course   </div>
+                        </div>
+                        <div class="card-sub flex-center flex-row gap-10">
+                            <div class="flex-center"><span class="iconify grey-text font-xs" data-icon="mdi:clock-time-four-outline"></span></div>
+                            <div class="para-font grey-text">1 Hour</div>
+                        </div>
+                        <div class="card-sub flex-center flex-row gap-10">
+                            <div class="flex-center"><span class="iconify grey-text font-xs" data-icon="material-symbols:lock"></span></div>
+                            <div class="para-font grey-text">Lifetime Access</div>
+                        </div>
+                    </div>
+                    <div class="flex-center-center" style="margin: 1rem 0;">
+                        <button class="btn-small primary para-font font-sm primary-text fw-500"> Enroll Now</button>
+                    </div>
+                    
+                </div>  <div class="swiper-slide flex-column shadow-light primary-bg">
+                    <img src="/assets/card-image-1.png" alt="card image">
+                    <div class="card-pad-2">
+                        <h1 class="heading-small fw-800 text-left">JavaScript Certification </h1>
+                       
+                        <div class="rating flex-row flex-center gap-5" style=" padding: 0.5rem 0;">
+                            <h5 class="rate para-font font-xs" style="color: #FF9529;">4.5</h5>
+                            <div class="star flex-row">
+                                <span class="iconify" data-icon="material-symbols:star"></span>
+                                <span class="iconify" data-icon="material-symbols:star"></span>
+                                <span class="iconify" data-icon="material-symbols:star"></span>
+                                <span class="iconify" data-icon="material-symbols:star"></span>
+                                <span class="iconify" data-icon="material-symbols:star-half"></span>
+                            </div>
+                            <div class="grey-text para-font font-xxs">(138)</div>    
+                        </div>
+                        <div class="card-sub flex-center flex-row gap-10">
+                            <div class="flex-center"><span class="iconify grey-text font-xs" data-icon="cil:education"></span></div>
+                            <div class="para-font grey-text">1 Course   </div>
+                        </div>
+                        <div class="card-sub flex-center flex-row gap-10">
+                            <div class="flex-center"><span class="iconify grey-text font-xs" data-icon="mdi:clock-time-four-outline"></span></div>
+                            <div class="para-font grey-text">1 Hour</div>
+                        </div>
+                        <div class="card-sub flex-center flex-row gap-10">
+                            <div class="flex-center"><span class="iconify grey-text font-xs" data-icon="material-symbols:lock"></span></div>
+                            <div class="para-font grey-text">Lifetime Access</div>
+                        </div>
+                    </div>
+                    <div class="flex-center-center" style="margin: 1rem 0;">
+                        <button class="btn-small primary para-font font-sm primary-text fw-500"> Enroll Now</button>
+                    </div>
+                    
+                </div>  <div class="swiper-slide flex-column shadow-light primary-bg">
+                    <img src="/assets/card-image-1.png" alt="card image">
+                    <div class="card-pad-2">
+                        <h1 class="heading-small fw-800 text-left">JavaScript Certification </h1>
+                       
+                        <div class="rating flex-row flex-center gap-5" style=" padding: 0.5rem 0;">
+                            <h5 class="rate para-font font-xs" style="color: #FF9529;">4.5</h5>
+                            <div class="star flex-row">
+                                <span class="iconify" data-icon="material-symbols:star"></span>
+                                <span class="iconify" data-icon="material-symbols:star"></span>
+                                <span class="iconify" data-icon="material-symbols:star"></span>
+                                <span class="iconify" data-icon="material-symbols:star"></span>
+                                <span class="iconify" data-icon="material-symbols:star-half"></span>
+                            </div>
+                            <div class="grey-text para-font font-xxs">(138)</div>    
+                        </div>
+                        <div class="card-sub flex-center flex-row gap-10">
+                            <div class="flex-center"><span class="iconify grey-text font-xs" data-icon="cil:education"></span></div>
+                            <div class="para-font grey-text">1 Course   </div>
+                        </div>
+                        <div class="card-sub flex-center flex-row gap-10">
+                            <div class="flex-center"><span class="iconify grey-text font-xs" data-icon="mdi:clock-time-four-outline"></span></div>
+                            <div class="para-font grey-text">1 Hour</div>
+                        </div>
+                        <div class="card-sub flex-center flex-row gap-10">
+                            <div class="flex-center"><span class="iconify grey-text font-xs" data-icon="material-symbols:lock"></span></div>
+                            <div class="para-font grey-text">Lifetime Access</div>
+                        </div>
+                    </div>
+                    <div class="flex-center-center" style="margin: 1rem 0;">
+                        <button class="btn-small primary para-font font-sm primary-text fw-500"> Enroll Now</button>
+                    </div>
+                    
+                </div>  <div class="swiper-slide flex-column shadow-light primary-bg">
+                    <img src="/assets/card-image-1.png" alt="card image">
+                    <div class="card-pad-2">
+                        <h1 class="heading-small fw-800 text-left">JavaScript Certification </h1>
+                       
+                        <div class="rating flex-row flex-center gap-5" style=" padding: 0.5rem 0;">
+                            <h5 class="rate para-font font-xs" style="color: #FF9529;">4.5</h5>
+                            <div class="star flex-row">
+                                <span class="iconify" data-icon="material-symbols:star"></span>
+                                <span class="iconify" data-icon="material-symbols:star"></span>
+                                <span class="iconify" data-icon="material-symbols:star"></span>
+                                <span class="iconify" data-icon="material-symbols:star"></span>
+                                <span class="iconify" data-icon="material-symbols:star-half"></span>
+                            </div>
+                            <div class="grey-text para-font font-xxs">(138)</div>    
+                        </div>
+                        <div class="card-sub flex-center flex-row gap-10">
+                            <div class="flex-center"><span class="iconify grey-text font-xs" data-icon="cil:education"></span></div>
+                            <div class="para-font grey-text">1 Course   </div>
+                        </div>
+                        <div class="card-sub flex-center flex-row gap-10">
+                            <div class="flex-center"><span class="iconify grey-text font-xs" data-icon="mdi:clock-time-four-outline"></span></div>
+                            <div class="para-font grey-text">1 Hour</div>
+                        </div>
+                        <div class="card-sub flex-center flex-row gap-10">
+                            <div class="flex-center"><span class="iconify grey-text font-xs" data-icon="material-symbols:lock"></span></div>
+                            <div class="para-font grey-text">Lifetime Access</div>
+                        </div>
+                    </div>
+                    <div class="flex-center-center" style="margin: 1rem 0;">
+                        <button class="btn-small primary para-font font-sm primary-text fw-500"> Enroll Now</button>
+                    </div>
+                    
+                </div>  <div class="swiper-slide flex-column shadow-light primary-bg">
+                    <img src="/assets/card-image-1.png" alt="card image">
+                    <div class="card-pad-2">
+                        <h1 class="heading-small fw-800 text-left">JavaScript Certification </h1>
+                       
+                        <div class="rating flex-row flex-center gap-5" style=" padding: 0.5rem 0;">
+                            <h5 class="rate para-font font-xs" style="color: #FF9529;">4.5</h5>
+                            <div class="star flex-row">
+                                <span class="iconify" data-icon="material-symbols:star"></span>
+                                <span class="iconify" data-icon="material-symbols:star"></span>
+                                <span class="iconify" data-icon="material-symbols:star"></span>
+                                <span class="iconify" data-icon="material-symbols:star"></span>
+                                <span class="iconify" data-icon="material-symbols:star-half"></span>
+                            </div>
+                            <div class="grey-text para-font font-xxs">(138)</div>    
+                        </div>
+                        <div class="card-sub flex-center flex-row gap-10">
+                            <div class="flex-center"><span class="iconify grey-text font-xs" data-icon="cil:education"></span></div>
+                            <div class="para-font grey-text">1 Course   </div>
+                        </div>
+                        <div class="card-sub flex-center flex-row gap-10">
+                            <div class="flex-center"><span class="iconify grey-text font-xs" data-icon="mdi:clock-time-four-outline"></span></div>
+                            <div class="para-font grey-text">1 Hour</div>
+                        </div>
+                        <div class="card-sub flex-center flex-row gap-10">
+                            <div class="flex-center"><span class="iconify grey-text font-xs" data-icon="material-symbols:lock"></span></div>
+                            <div class="para-font grey-text">Lifetime Access</div>
+                        </div>
+                    </div>
+                    <div class="flex-center-center" style="margin: 1rem 0;">
+                        <button class="btn-small primary para-font font-sm primary-text fw-500"> Enroll Now</button>
+                    </div>
+                    
+                </div>  <div class="swiper-slide flex-column shadow-light primary-bg">
+                    <img src="/assets/card-image-1.png" alt="card image">
+                    <div class="card-pad-2">
+                        <h1 class="heading-small fw-800 text-left">JavaScript Certification </h1>
+                       
+                        <div class="rating flex-row flex-center gap-5" style=" padding: 0.5rem 0;">
+                            <h5 class="rate para-font font-xs" style="color: #FF9529;">4.5</h5>
+                            <div class="star flex-row">
+                                <span class="iconify" data-icon="material-symbols:star"></span>
+                                <span class="iconify" data-icon="material-symbols:star"></span>
+                                <span class="iconify" data-icon="material-symbols:star"></span>
+                                <span class="iconify" data-icon="material-symbols:star"></span>
+                                <span class="iconify" data-icon="material-symbols:star-half"></span>
+                            </div>
+                            <div class="grey-text para-font font-xxs">(138)</div>    
+                        </div>
+                        <div class="card-sub flex-center flex-row gap-10">
+                            <div class="flex-center"><span class="iconify grey-text font-xs" data-icon="cil:education"></span></div>
+                            <div class="para-font grey-text">1 Course   </div>
+                        </div>
+                        <div class="card-sub flex-center flex-row gap-10">
+                            <div class="flex-center"><span class="iconify grey-text font-xs" data-icon="mdi:clock-time-four-outline"></span></div>
+                            <div class="para-font grey-text">1 Hour</div>
+                        </div>
+                        <div class="card-sub flex-center flex-row gap-10">
+                            <div class="flex-center"><span class="iconify grey-text font-xs" data-icon="material-symbols:lock"></span></div>
+                            <div class="para-font grey-text">Lifetime Access</div>
+                        </div>
+                    </div>
+                    <div class="flex-center-center" style="margin: 1rem 0;">
+                        <button class="btn-small primary para-font font-sm primary-text fw-500"> Enroll Now</button>
+                    </div>
+                    
+                </div>  <div class="swiper-slide flex-column shadow-light primary-bg">
+                    <img src="/assets/card-image-1.png" alt="card image">
+                    <div class="card-pad-2">
+                        <h1 class="heading-small fw-800 text-left">JavaScript Certification </h1>
+                       
+                        <div class="rating flex-row flex-center gap-5" style=" padding: 0.5rem 0;">
+                            <h5 class="rate para-font font-xs" style="color: #FF9529;">4.5</h5>
+                            <div class="star flex-row">
+                                <span class="iconify" data-icon="material-symbols:star"></span>
+                                <span class="iconify" data-icon="material-symbols:star"></span>
+                                <span class="iconify" data-icon="material-symbols:star"></span>
+                                <span class="iconify" data-icon="material-symbols:star"></span>
+                                <span class="iconify" data-icon="material-symbols:star-half"></span>
+                            </div>
+                            <div class="grey-text para-font font-xxs">(138)</div>    
+                        </div>
+                        <div class="card-sub flex-center flex-row gap-10">
+                            <div class="flex-center"><span class="iconify grey-text font-xs" data-icon="cil:education"></span></div>
+                            <div class="para-font grey-text">1 Course   </div>
+                        </div>
+                        <div class="card-sub flex-center flex-row gap-10">
+                            <div class="flex-center"><span class="iconify grey-text font-xs" data-icon="mdi:clock-time-four-outline"></span></div>
+                            <div class="para-font grey-text">1 Hour</div>
+                        </div>
+                        <div class="card-sub flex-center flex-row gap-10">
+                            <div class="flex-center"><span class="iconify grey-text font-xs" data-icon="material-symbols:lock"></span></div>
+                            <div class="para-font grey-text">Lifetime Access</div>
+                        </div>
+                    </div>
+                    <div class="flex-center-center" style="margin: 1rem 0;">
+                        <button class="btn-small primary para-font font-sm primary-text fw-500"> Enroll Now</button>
+                    </div>
+                    
+                </div>
+                </div>
+                
+                
+             
+              </div>
+              <button class="right-arrow primary flex-center"><span class="iconify primary-text" data-icon="ic:round-keyboard-arrow-right"></span></button>    
+        </div>
+        
+          
+    </section>
+     <!-- This is All in one bundle section -->
+    <section class="primary-bg pad-0  ">
+        <h1 class="heading">Explore our <strong class="secondary-color-text fw-800">  ALL IN ONE BUNDLES</strong></h1>
+        <div class="swiper-container flex-center-center gap-10">
+            <button class="left-arrow-aio  secondary flex-center"><span class="iconify primary-text" data-icon="ic:round-keyboard-arrow-left"></span></button>
+            <div class="swiper aioswiper">
+                               <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                  <!-- Slides -->
+                  <div class="swiper-slide flex-column shadow-light primary-bg">
+                    <img src="/assets/card-image-1.png" alt="card image">
+                    <div class="card-pad-2">
+                        <h1 class="heading-small fw-800 text-left">JavaScript Certification </h1>
+                       
+                        <div class="rating flex-row flex-center gap-5" style=" padding: 0.5rem 0;">
+                            <h5 class="rate para-font font-xs" style="color: #FF9529;">4.5</h5>
+                            <div class="star flex-row">
+                                <span class="iconify" data-icon="material-symbols:star"></span>
+                                <span class="iconify" data-icon="material-symbols:star"></span>
+                                <span class="iconify" data-icon="material-symbols:star"></span>
+                                <span class="iconify" data-icon="material-symbols:star"></span>
+                                <span class="iconify" data-icon="material-symbols:star-half"></span>
+                            </div>
+                            <div class="grey-text para-font font-xxs">(138)</div>    
+                        </div>
+                        <div class="card-sub flex-center flex-row gap-10">
+                            <div class="flex-center"><span class="iconify grey-text font-xs" data-icon="cil:education"></span></div>
+                            <div class="para-font  grey-text">250+ Courses</div>
+                        </div>
+                        <div class="card-sub flex-center flex-row gap-10">
+                            <div class="flex-center"><span class="iconify grey-text font-xs" data-icon="mdi:clock-time-four-outline"></span></div>
+                            <div class="para-font  grey-text">1000+ Hours</div>
+                        </div>
+                        <div class="card-sub flex-center flex-row gap-10">
+                            <div class="flex-center"><span class="iconify grey-text font-xs" data-icon="octicon:project-24"></span></div>
+                            <div class="para-font  grey-text">40+ Projects</div>
+                        </div>
+                        <div class="card-sub flex-center flex-row gap-10">
+                            <div class="flex-center"><span class="iconify grey-text font-xs" data-icon="carbon:certificate"></span></div>
+                            <div class="para-font  grey-text">Verifiable Certificate</div>
+                        </div>
+                        <div class="card-sub flex-center flex-row gap-10">
+                            <div class="flex-center"><span class="iconify grey-text font-xs" data-icon="material-symbols:lock"></span></div>
+                            <div class="para-font  grey-text">Lifetime Access</div>
+                        </div>
+                    </div>
+                    <div class="flex-center-center" style="margin: 1rem 0;">
+                        <button class="btn-small secondary para-font font-sm primary-text fw-500"> Enroll Now</button>
+                    </div>
+                    
+                </div>
+                  <div class="swiper-slide flex-column shadow-light primary-bg">
+                    <img src="/assets/card-image-1.png" alt="card image">
+                    <div class="card-pad-2">
+                        <h1 class="heading-small fw-800 text-left">JavaScript Certification </h1>
+                       
+                        <div class="rating flex-row flex-center gap-5" style=" padding: 0.5rem 0;">
+                            <h5 class="rate para-font font-xs" style="color: #FF9529;">4.5</h5>
+                            <div class="star flex-row">
+                                <span class="iconify" data-icon="material-symbols:star"></span>
+                                <span class="iconify" data-icon="material-symbols:star"></span>
+                                <span class="iconify" data-icon="material-symbols:star"></span>
+                                <span class="iconify" data-icon="material-symbols:star"></span>
+                                <span class="iconify" data-icon="material-symbols:star-half"></span>
+                            </div>
+                            <div class="grey-text para-font font-xxs">(138)</div>    
+                        </div>
+                        <div class="card-sub flex-center flex-row gap-10">
+                            <div class="flex-center"><span class="iconify grey-text font-xs" data-icon="cil:education"></span></div>
+                            <div class="para-font  grey-text">250+ Courses</div>
+                        </div>
+                        <div class="card-sub flex-center flex-row gap-10">
+                            <div class="flex-center"><span class="iconify grey-text font-xs" data-icon="mdi:clock-time-four-outline"></span></div>
+                            <div class="para-font  grey-text">1000+ Hours</div>
+                        </div>
+                        <div class="card-sub flex-center flex-row gap-10">
+                            <div class="flex-center"><span class="iconify grey-text font-xs" data-icon="octicon:project-24"></span></div>
+                            <div class="para-font  grey-text">40+ Projects</div>
+                        </div>
+                        <div class="card-sub flex-center flex-row gap-10">
+                            <div class="flex-center"><span class="iconify grey-text font-xs" data-icon="carbon:certificate"></span></div>
+                            <div class="para-font  grey-text">Verifiable Certificate</div>
+                        </div>
+                        <div class="card-sub flex-center flex-row gap-10">
+                            <div class="flex-center"><span class="iconify grey-text font-xs" data-icon="material-symbols:lock"></span></div>
+                            <div class="para-font  grey-text">Lifetime Access</div>
+                        </div>
+                    </div>
+                    <div class="flex-center-center" style="margin: 1rem 0;">
+                        <button class="btn-small secondary para-font font-sm primary-text fw-500"> Enroll Now</button>
+                    </div>
+                    
+                </div>
+                  <div class="swiper-slide flex-column shadow-light primary-bg">
+                    <img src="/assets/card-image-1.png" alt="card image">
+                    <div class="card-pad-2">
+                        <h1 class="heading-small fw-800 text-left">JavaScript Certification </h1>
+                       
+                        <div class="rating flex-row flex-center gap-5" style=" padding: 0.5rem 0;">
+                            <h5 class="rate para-font font-xs" style="color: #FF9529;">4.5</h5>
+                            <div class="star flex-row">
+                                <span class="iconify" data-icon="material-symbols:star"></span>
+                                <span class="iconify" data-icon="material-symbols:star"></span>
+                                <span class="iconify" data-icon="material-symbols:star"></span>
+                                <span class="iconify" data-icon="material-symbols:star"></span>
+                                <span class="iconify" data-icon="material-symbols:star-half"></span>
+                            </div>
+                            <div class="grey-text para-font font-xxs">(138)</div>    
+                        </div>
+                        <div class="card-sub flex-center flex-row gap-10">
+                            <div class="flex-center"><span class="iconify grey-text font-xs" data-icon="cil:education"></span></div>
+                            <div class="para-font  grey-text">250+ Courses</div>
+                        </div>
+                        <div class="card-sub flex-center flex-row gap-10">
+                            <div class="flex-center"><span class="iconify grey-text font-xs" data-icon="mdi:clock-time-four-outline"></span></div>
+                            <div class="para-font  grey-text">1000+ Hours</div>
+                        </div>
+                        <div class="card-sub flex-center flex-row gap-10">
+                            <div class="flex-center"><span class="iconify grey-text font-xs" data-icon="octicon:project-24"></span></div>
+                            <div class="para-font  grey-text">40+ Projects</div>
+                        </div>
+                        <div class="card-sub flex-center flex-row gap-10">
+                            <div class="flex-center"><span class="iconify grey-text font-xs" data-icon="carbon:certificate"></span></div>
+                            <div class="para-font  grey-text">Verifiable Certificate</div>
+                        </div>
+                        <div class="card-sub flex-center flex-row gap-10">
+                            <div class="flex-center"><span class="iconify grey-text font-xs" data-icon="material-symbols:lock"></span></div>
+                            <div class="para-font  grey-text">Lifetime Access</div>
+                        </div>
+                    </div>
+                    <div class="flex-center-center" style="margin: 1rem 0;">
+                        <button class="btn-small secondary para-font font-sm primary-text fw-500"> Enroll Now</button>
+                    </div>
+                    
+                </div>
+                  <div class="swiper-slide flex-column shadow-light primary-bg">
+                    <img src="/assets/card-image-1.png" alt="card image">
+                    <div class="card-pad-2">
+                        <h1 class="heading-small fw-800 text-left">JavaScript Certification </h1>
+                       
+                        <div class="rating flex-row flex-center gap-5" style=" padding: 0.5rem 0;">
+                            <h5 class="rate para-font font-xs" style="color: #FF9529;">4.5</h5>
+                            <div class="star flex-row">
+                                <span class="iconify" data-icon="material-symbols:star"></span>
+                                <span class="iconify" data-icon="material-symbols:star"></span>
+                                <span class="iconify" data-icon="material-symbols:star"></span>
+                                <span class="iconify" data-icon="material-symbols:star"></span>
+                                <span class="iconify" data-icon="material-symbols:star-half"></span>
+                            </div>
+                            <div class="grey-text para-font font-xxs">(138)</div>    
+                        </div>
+                        <div class="card-sub flex-center flex-row gap-10">
+                            <div class="flex-center"><span class="iconify grey-text font-xs" data-icon="cil:education"></span></div>
+                            <div class="para-font  grey-text">250+ Courses</div>
+                        </div>
+                        <div class="card-sub flex-center flex-row gap-10">
+                            <div class="flex-center"><span class="iconify grey-text font-xs" data-icon="mdi:clock-time-four-outline"></span></div>
+                            <div class="para-font  grey-text">1000+ Hours</div>
+                        </div>
+                        <div class="card-sub flex-center flex-row gap-10">
+                            <div class="flex-center"><span class="iconify grey-text font-xs" data-icon="octicon:project-24"></span></div>
+                            <div class="para-font  grey-text">40+ Projects</div>
+                        </div>
+                        <div class="card-sub flex-center flex-row gap-10">
+                            <div class="flex-center"><span class="iconify grey-text font-xs" data-icon="carbon:certificate"></span></div>
+                            <div class="para-font  grey-text">Verifiable Certificate</div>
+                        </div>
+                        <div class="card-sub flex-center flex-row gap-10">
+                            <div class="flex-center"><span class="iconify grey-text font-xs" data-icon="material-symbols:lock"></span></div>
+                            <div class="para-font  grey-text">Lifetime Access</div>
+                        </div>
+                    </div>
+                    <div class="flex-center-center" style="margin: 1rem 0;">
+                        <button class="btn-small secondary para-font font-sm primary-text fw-500"> Enroll Now</button>
+                    </div>
+                    
+                </div>
+                  <div class="swiper-slide flex-column shadow-light primary-bg">
+                    <img src="/assets/card-image-1.png" alt="card image">
+                    <div class="card-pad-2">
+                        <h1 class="heading-small fw-800 text-left">JavaScript Certification </h1>
+                       
+                        <div class="rating flex-row flex-center gap-5" style=" padding: 0.5rem 0;">
+                            <h5 class="rate para-font font-xs" style="color: #FF9529;">4.5</h5>
+                            <div class="star flex-row">
+                                <span class="iconify" data-icon="material-symbols:star"></span>
+                                <span class="iconify" data-icon="material-symbols:star"></span>
+                                <span class="iconify" data-icon="material-symbols:star"></span>
+                                <span class="iconify" data-icon="material-symbols:star"></span>
+                                <span class="iconify" data-icon="material-symbols:star-half"></span>
+                            </div>
+                            <div class="grey-text para-font font-xxs">(138)</div>    
+                        </div>
+                        <div class="card-sub flex-center flex-row gap-10">
+                            <div class="flex-center"><span class="iconify grey-text font-xs" data-icon="cil:education"></span></div>
+                            <div class="para-font  grey-text">250+ Courses</div>
+                        </div>
+                        <div class="card-sub flex-center flex-row gap-10">
+                            <div class="flex-center"><span class="iconify grey-text font-xs" data-icon="mdi:clock-time-four-outline"></span></div>
+                            <div class="para-font  grey-text">1000+ Hours</div>
+                        </div>
+                        <div class="card-sub flex-center flex-row gap-10">
+                            <div class="flex-center"><span class="iconify grey-text font-xs" data-icon="octicon:project-24"></span></div>
+                            <div class="para-font  grey-text">40+ Projects</div>
+                        </div>
+                        <div class="card-sub flex-center flex-row gap-10">
+                            <div class="flex-center"><span class="iconify grey-text font-xs" data-icon="carbon:certificate"></span></div>
+                            <div class="para-font  grey-text">Verifiable Certificate</div>
+                        </div>
+                        <div class="card-sub flex-center flex-row gap-10">
+                            <div class="flex-center"><span class="iconify grey-text font-xs" data-icon="material-symbols:lock"></span></div>
+                            <div class="para-font  grey-text">Lifetime Access</div>
+                        </div>
+                    </div>
+                    <div class="flex-center-center" style="margin: 1rem 0;">
+                        <button class="btn-small secondary para-font font-sm primary-text fw-500"> Enroll Now</button>
+                    </div>
+                    
+                </div>
+                  <div class="swiper-slide flex-column shadow-light primary-bg">
+                    <img src="/assets/card-image-1.png" alt="card image">
+                    <div class="card-pad-2">
+                        <h1 class="heading-small fw-800 text-left">JavaScript Certification </h1>
+                       
+                        <div class="rating flex-row flex-center gap-5" style=" padding: 0.5rem 0;">
+                            <h5 class="rate para-font font-xs" style="color: #FF9529;">4.5</h5>
+                            <div class="star flex-row">
+                                <span class="iconify" data-icon="material-symbols:star"></span>
+                                <span class="iconify" data-icon="material-symbols:star"></span>
+                                <span class="iconify" data-icon="material-symbols:star"></span>
+                                <span class="iconify" data-icon="material-symbols:star"></span>
+                                <span class="iconify" data-icon="material-symbols:star-half"></span>
+                            </div>
+                            <div class="grey-text para-font font-xxs">(138)</div>    
+                        </div>
+                        <div class="card-sub flex-center flex-row gap-10">
+                            <div class="flex-center"><span class="iconify grey-text font-xs" data-icon="cil:education"></span></div>
+                            <div class="para-font  grey-text">250+ Courses</div>
+                        </div>
+                        <div class="card-sub flex-center flex-row gap-10">
+                            <div class="flex-center"><span class="iconify grey-text font-xs" data-icon="mdi:clock-time-four-outline"></span></div>
+                            <div class="para-font  grey-text">1000+ Hours</div>
+                        </div>
+                        <div class="card-sub flex-center flex-row gap-10">
+                            <div class="flex-center"><span class="iconify grey-text font-xs" data-icon="octicon:project-24"></span></div>
+                            <div class="para-font  grey-text">40+ Projects</div>
+                        </div>
+                        <div class="card-sub flex-center flex-row gap-10">
+                            <div class="flex-center"><span class="iconify grey-text font-xs" data-icon="carbon:certificate"></span></div>
+                            <div class="para-font  grey-text">Verifiable Certificate</div>
+                        </div>
+                        <div class="card-sub flex-center flex-row gap-10">
+                            <div class="flex-center"><span class="iconify grey-text font-xs" data-icon="material-symbols:lock"></span></div>
+                            <div class="para-font  grey-text">Lifetime Access</div>
+                        </div>
+                    </div>
+                    <div class="flex-center-center" style="margin: 1rem 0;">
+                        <button class="btn-small secondary para-font font-sm primary-text fw-500"> Enroll Now</button>
+                    </div>
+                    
+                </div>
+                  <div class="swiper-slide flex-column shadow-light primary-bg">
+                    <img src="/assets/card-image-1.png" alt="card image">
+                    <div class="card-pad-2">
+                        <h1 class="heading-small fw-800 text-left">JavaScript Certification </h1>
+                       
+                        <div class="rating flex-row flex-center gap-5" style=" padding: 0.5rem 0;">
+                            <h5 class="rate para-font font-xs" style="color: #FF9529;">4.5</h5>
+                            <div class="star flex-row">
+                                <span class="iconify" data-icon="material-symbols:star"></span>
+                                <span class="iconify" data-icon="material-symbols:star"></span>
+                                <span class="iconify" data-icon="material-symbols:star"></span>
+                                <span class="iconify" data-icon="material-symbols:star"></span>
+                                <span class="iconify" data-icon="material-symbols:star-half"></span>
+                            </div>
+                            <div class="grey-text para-font font-xxs">(138)</div>    
+                        </div>
+                        <div class="card-sub flex-center flex-row gap-10">
+                            <div class="flex-center"><span class="iconify grey-text font-xs" data-icon="cil:education"></span></div>
+                            <div class="para-font  grey-text">250+ Courses</div>
+                        </div>
+                        <div class="card-sub flex-center flex-row gap-10">
+                            <div class="flex-center"><span class="iconify grey-text font-xs" data-icon="mdi:clock-time-four-outline"></span></div>
+                            <div class="para-font  grey-text">1000+ Hours</div>
+                        </div>
+                        <div class="card-sub flex-center flex-row gap-10">
+                            <div class="flex-center"><span class="iconify grey-text font-xs" data-icon="octicon:project-24"></span></div>
+                            <div class="para-font  grey-text">40+ Projects</div>
+                        </div>
+                        <div class="card-sub flex-center flex-row gap-10">
+                            <div class="flex-center"><span class="iconify grey-text font-xs" data-icon="carbon:certificate"></span></div>
+                            <div class="para-font  grey-text">Verifiable Certificate</div>
+                        </div>
+                        <div class="card-sub flex-center flex-row gap-10">
+                            <div class="flex-center"><span class="iconify grey-text font-xs" data-icon="material-symbols:lock"></span></div>
+                            <div class="para-font  grey-text">Lifetime Access</div>
+                        </div>
+                    </div>
+                    <div class="flex-center-center" style="margin: 1rem 0;">
+                        <button class="btn-small secondary para-font font-sm primary-text fw-500"> Enroll Now</button>
+                    </div>
+                    
+                </div>
+                  <div class="swiper-slide flex-column shadow-light primary-bg">
+                    <img src="/assets/card-image-1.png" alt="card image">
+                    <div class="card-pad-2">
+                        <h1 class="heading-small fw-800 text-left">JavaScript Certification </h1>
+                       
+                        <div class="rating flex-row flex-center gap-5" style=" padding: 0.5rem 0;">
+                            <h5 class="rate para-font font-xs" style="color: #FF9529;">4.5</h5>
+                            <div class="star flex-row">
+                                <span class="iconify" data-icon="material-symbols:star"></span>
+                                <span class="iconify" data-icon="material-symbols:star"></span>
+                                <span class="iconify" data-icon="material-symbols:star"></span>
+                                <span class="iconify" data-icon="material-symbols:star"></span>
+                                <span class="iconify" data-icon="material-symbols:star-half"></span>
+                            </div>
+                            <div class="grey-text para-font font-xxs">(138)</div>    
+                        </div>
+                        <div class="card-sub flex-center flex-row gap-10">
+                            <div class="flex-center"><span class="iconify grey-text font-xs" data-icon="cil:education"></span></div>
+                            <div class="para-font  grey-text">250+ Courses</div>
+                        </div>
+                        <div class="card-sub flex-center flex-row gap-10">
+                            <div class="flex-center"><span class="iconify grey-text font-xs" data-icon="mdi:clock-time-four-outline"></span></div>
+                            <div class="para-font  grey-text">1000+ Hours</div>
+                        </div>
+                        <div class="card-sub flex-center flex-row gap-10">
+                            <div class="flex-center"><span class="iconify grey-text font-xs" data-icon="octicon:project-24"></span></div>
+                            <div class="para-font  grey-text">40+ Projects</div>
+                        </div>
+                        <div class="card-sub flex-center flex-row gap-10">
+                            <div class="flex-center"><span class="iconify grey-text font-xs" data-icon="carbon:certificate"></span></div>
+                            <div class="para-font  grey-text">Verifiable Certificate</div>
+                        </div>
+                        <div class="card-sub flex-center flex-row gap-10">
+                            <div class="flex-center"><span class="iconify grey-text font-xs" data-icon="material-symbols:lock"></span></div>
+                            <div class="para-font  grey-text">Lifetime Access</div>
+                        </div>
+                    </div>
+                    <div class="flex-center-center" style="margin: 1rem 0;">
+                        <button class="btn-small secondary para-font font-sm primary-text fw-500"> Enroll Now</button>
+                    </div>
+                    
+                </div>
+                <div class="swiper-slide flex-column shadow-light primary-bg">
+                    <img src="/assets/card-image-1.png" alt="card image">
+                    <div class="card-pad-2">
+                        <h1 class="heading-small fw-800 text-left">JavaScript Certification </h1>
+                       
+                        <div class="rating flex-row flex-center gap-5" style=" padding: 0.5rem 0;">
+                            <h5 class="rate para-font font-xs" style="color: #FF9529;">4.5</h5>
+                            <div class="star flex-row">
+                                <span class="iconify" data-icon="material-symbols:star"></span>
+                                <span class="iconify" data-icon="material-symbols:star"></span>
+                                <span class="iconify" data-icon="material-symbols:star"></span>
+                                <span class="iconify" data-icon="material-symbols:star"></span>
+                                <span class="iconify" data-icon="material-symbols:star-half"></span>
+                            </div>
+                            <div class="grey-text para-font font-xxs">(138)</div>    
+                        </div>
+                        <div class="card-sub flex-center flex-row gap-10">
+                            <div class="flex-center"><span class="iconify grey-text font-xs" data-icon="cil:education"></span></div>
+                            <div class="para-font  grey-text">250+ Courses</div>
+                        </div>
+                        <div class="card-sub flex-center flex-row gap-10">
+                            <div class="flex-center"><span class="iconify grey-text font-xs" data-icon="mdi:clock-time-four-outline"></span></div>
+                            <div class="para-font  grey-text">1000+ Hours</div>
+                        </div>
+                        <div class="card-sub flex-center flex-row gap-10">
+                            <div class="flex-center"><span class="iconify grey-text font-xs" data-icon="octicon:project-24"></span></div>
+                            <div class="para-font  grey-text">40+ Projects</div>
+                        </div>
+                        <div class="card-sub flex-center flex-row gap-10">
+                            <div class="flex-center"><span class="iconify grey-text font-xs" data-icon="carbon:certificate"></span></div>
+                            <div class="para-font  grey-text">Verifiable Certificate</div>
+                        </div>
+                        <div class="card-sub flex-center flex-row gap-10">
+                            <div class="flex-center"><span class="iconify grey-text font-xs" data-icon="material-symbols:lock"></span></div>
+                            <div class="para-font  grey-text">Lifetime Access</div>
+                        </div>
+                    </div>
+                    <div class="flex-center-center" style="margin: 1rem 0;">
+                        <button class="btn-small secondary para-font font-sm primary-text fw-500"> Enroll Now</button>
+                    </div>
+                    
+                </div>
+                <div class="swiper-slide flex-column shadow-light primary-bg">
+                    <img src="/assets/card-image-1.png" alt="card image">
+                    <div class="card-pad-2">
+                        <h1 class="heading-small fw-800 text-left">JavaScript Certification </h1>
+                       
+                        <div class="rating flex-row flex-center gap-5" style=" padding: 0.5rem 0;">
+                            <h5 class="rate para-font font-xs" style="color: #FF9529;">4.5</h5>
+                            <div class="star flex-row">
+                                <span class="iconify" data-icon="material-symbols:star"></span>
+                                <span class="iconify" data-icon="material-symbols:star"></span>
+                                <span class="iconify" data-icon="material-symbols:star"></span>
+                                <span class="iconify" data-icon="material-symbols:star"></span>
+                                <span class="iconify" data-icon="material-symbols:star-half"></span>
+                            </div>
+                            <div class="grey-text para-font font-xxs">(138)</div>    
+                        </div>
+                        <div class="card-sub flex-center flex-row gap-10">
+                            <div class="flex-center"><span class="iconify grey-text font-xs" data-icon="cil:education"></span></div>
+                            <div class="para-font  grey-text">250+ Courses</div>
+                        </div>
+                        <div class="card-sub flex-center flex-row gap-10">
+                            <div class="flex-center"><span class="iconify grey-text font-xs" data-icon="mdi:clock-time-four-outline"></span></div>
+                            <div class="para-font  grey-text">1000+ Hours</div>
+                        </div>
+                        <div class="card-sub flex-center flex-row gap-10">
+                            <div class="flex-center"><span class="iconify grey-text font-xs" data-icon="octicon:project-24"></span></div>
+                            <div class="para-font  grey-text">40+ Projects</div>
+                        </div>
+                        <div class="card-sub flex-center flex-row gap-10">
+                            <div class="flex-center"><span class="iconify grey-text font-xs" data-icon="carbon:certificate"></span></div>
+                            <div class="para-font  grey-text">Verifiable Certificate</div>
+                        </div>
+                        <div class="card-sub flex-center flex-row gap-10">
+                            <div class="flex-center"><span class="iconify grey-text font-xs" data-icon="material-symbols:lock"></span></div>
+                            <div class="para-font  grey-text">Lifetime Access</div>
+                        </div>
+                    </div>
+                    <div class="flex-center-center" style="margin: 1rem 0;">
+                        <button class="btn-small secondary para-font font-sm primary-text fw-500"> Enroll Now</button>
+                    </div>
+                    
+                </div>
+
+                </div>
+                </div>
+              <button class="right-arrow-aio secondary flex-center"><span class="iconify primary-text" data-icon="ic:round-keyboard-arrow-right"></span></button>    
+        </div>
+    </section>
+       <!-- This is All in corporate training section -->
+    <section class="secondary-bg">
+        <h2 class="heading">Explore our <strong class="primary-color-text fw-800"> CORPORATE TRAINING PROGRAMS</strong></h2>
+        <div class="corporate flex-center-center gap-30">
+            <div class="card-2 shadow flex-column flex-center-center primary-text-bg">
+                <img src="./assets/ctp-image-1.png" style="padding-bottom: 1rem;" class="ctp-image" alt="ctp-image-1">
+                <h5 class="primary-color-text text-center para-font font-sm">Business Skills & Development</h5>
+        </div>
+        <div class="card-2 shadow flex-column flex-center-center primary-text-bg">
+          <img src="./assets/ctp-image-2.png" style="padding-bottom: 1rem;" class="ctp-image" alt="ctp-image-2">
+           <h5 class="primary-color-text text-center para-font font-sm">Human Resource</h5>
+           
+            
+    </div>
+    <div class="card-2 shadow flex-column flex-center-center primary-text-bg">
+        <img src="./assets/ctp-image-3.png" style="padding-bottom: 1rem;" class="ctp-image" alt="ctp-image-3">
+        <h5 class="primary-color-text text-center para-font font-sm">Project Management</h5>
+</div>
+<div class="card-2 shadow flex-column flex-center-center primary-text-bg">
+    <img src="./assets/ctp-image-4.png"  style="padding-bottom: 1rem;"class="ctp-image" alt="ctp-image-4">
+    <h5 class="primary-color-text text-center para-font font-sm">Talent Development</h5>
+</div>
+</div>
+<div class="flex-center-center"><button class="btn-big primary para-font font-sm primary-text fw-600"> View All Programs</button></div>
+    </section>
+    <!-- Exam educba section -->
+    <section class="exam primary-bg flex-center-se gap-25">
+        <div class="image-block">
+            <img src="/assets/exam-image.png" alt="">
+        </div>
+        <div class="text-block flex-column gap-10">
+            <h4 class="heading text-left">Prepare for your 
+               <br>
+                 <strong class="secondary-color-text fw-800">Exams </strong>  with Educba</h4>
+                 <div class="grid-4">
+                    <div class="bg-gradient-2 text-center secondary-color-text fw-700 font-xxs flex-center-center para-font">PMP</div>
+                    <div class="bg-gradient-2 text-center secondary-color-text fw-700 font-xxs flex-center-center para-font">CFA1</div>
+                    <div class="bg-gradient-2 text-center secondary-color-text fw-700 font-xxs flex-center-center para-font">CFA2</div>
+                    <div class="bg-gradient-2 text-center secondary-color-text fw-700 font-xxs flex-center-center para-font">FRM1    </div>
+                    <div class="bg-gradient-2 text-center secondary-color-text fw-700 font-xxs flex-center-center para-font">FRM2</div>
+                    <div class="bg-gradient-2 text-center secondary-color-text fw-700 font-xxs flex-center-center para-font">CFP</div>
+                    <div class="bg-gradient-2 text-center secondary-color-text fw-700 font-xxs flex-center-center para-font">CMA1</div>
+                    <div class="bg-gradient-2 text-center secondary-color-text fw-700 font-xxs flex-center-center para-font">CMA2</div>
+                 </div>
+                 <div class="flex-top flex-row" style="padding-top: 2rem;">
+                    <button class="btn-big secondary para-font font-sm primary-text fw-500"> Explore More</button>
+                 </div>
+        </div>
+    </section>
+    <!-- Executive programs section -->
+    <section class="exam secondary-bg flex-center-se gap-25">
+        <div class="text-block flex-column gap-5">
+            <h5 class="heading text-left">Enhance yourself with 
+                                <strong class="primary-color-text fw-800">Executive Programs</strong></h5>
+                 <div class="grid-4">
+                    <div class="bg-gradient-1 text-center primary-color-text fw-700 font-xxs flex-center-center para-font">CIBEP</div>
+                    <div class="bg-gradient-1 text-center primary-color-text fw-700 font-xxs flex-center-center para-font">CFMEP</div>
+                    <div class="bg-gradient-1 text-center primary-color-text fw-700 font-xxs flex-center-center para-font">CMEEP</div>
+                    <div class="bg-gradient-1 text-center primary-color-text fw-700 font-xxs flex-center-center para-font">ADSEP    </div>
+                    <div class="bg-gradient-1 text-center primary-color-text fw-700 font-xxs flex-center-center para-font">CPDEP </div>
+                    <div class="bg-gradient-1 text-center primary-color-text fw-700 font-xxs flex-center-center para-font">CTQMEP</div>
+                    <div class="bg-gradient-1 text-center primary-color-text fw-700 font-xxs flex-center-center para-font">CJDEP </div>
+                    <div class="bg-gradient-1 text-center primary-color-text fw-700 font-xxs flex-center-center para-font">CJSDEP</div>
+                 </div>
+                 <div class="flex-top flex-row" style="padding-top: 2rem;">
+                    <button class="btn-big primary para-font font-sm primary-text fw-500">View All Programs</button>
+                 </div>
+        </div>
+        <div class="image-block">
+            <img src="/assets/exam-image-2.png" alt="">
+        </div>
+        
+    </section>
+    <!-- Testimonial section -->
+    <section class="primary-bg">
+        <h1 class="heading">Know from <strong class="secondary-color-text fw-800">OUR ALUMNI </strong></h1>
+        <div class="testimony flex-center-center flex-row gap-30">
+            <div class="card-3 primary-text-bg shadow flex-column">
+                <h1 class="font-xl heading-special">"</h1>
+                <p class="heading-font font-xxs">This course was short but very informative and very helpful for an aspiring leader like myself. It also helped me understand how to view or understand when I receive feedback. I highly recommend it!!</p>
+                <div class="flex-row flex-center-start gap-25" style="padding: 1.5rem;">
+                    <div class="image">
+                        <img src="./assets/testimonial-image.png" alt="testimonial image">
+                    </div>
+                    <div class="flex-column">
+                        <p class="para-font secondary-color-text font-sm fw-800">Sahameer Khalid   </p>
+                        <p class="para-font font-xxs grey-text" style="padding: 0.5rem 0;">Student</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card-3 primary-text-bg shadow flex-column">
+                <h1 class="font-xl heading-special">"</h1>
+                <p class="heading-font font-xxs">This course was short but very informative and very helpful for an aspiring leader like myself. It also helped me understand how to view or understand when I receive feedback. I highly recommend it!!</p>
+                <div class="flex-row flex-center-start gap-25" style="padding: 1.5rem;">
+                    <div class="image">
+                        <img src="./assets/testimonial-image.png" alt="testimonial image">
+                    </div>
+                    <div class="flex-column">
+                        <p class="para-font secondary-color-text font-sm fw-800">Sahameer Khalid   </p>
+                        <p class="para-font font-xxs grey-text" style="padding: 0.5rem 0;">Student</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card-3 primary-text-bg shadow flex-column">
+                <h1 class="font-xl heading-special">"</h1>
+                <p class="heading-font font-xxs">This course was short but very informative and very helpful for an aspiring leader like myself. It also helped me understand how to view or understand when I receive feedback. I highly recommend it!!</p>
+                <div class="flex-row flex-center-start gap-25" style="padding: 1.5rem;">
+                    <div class="image">
+                        <img src="./assets/testimonial-image.png" alt="testimonial image">
+                    </div>
+                    <div class="flex-column">
+                        <p class="para-font secondary-color-text font-sm fw-800">Sahameer Khalid   </p>
+                        <p class="para-font font-xxs grey-text" style="padding: 0.5rem 0;">Student</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- This is clients section -->
+    <section class="secondary-bg"> 
+        <h1 class="heading ">Our 
+        <strong class="primary-color-text fw-800">CLIENTS</strong></h1>
+            <div class="flex-center-center gap-40 flex-row flex-wrap">
+                <img src="./assets/client-image-1.png" alt="client-images">
+                <img src="./assets/client-image-2.png" alt="client-images">
+                <img src="./assets/client-image-3.png" alt="client-images">
+                <img src="./assets/client-image-4.png" alt="client-images">
+                <img src="./assets/client-image-5.png" alt="client-images">
+                <img src="./assets/client-image-6.png" alt="client-images">
+                <img src="./assets/client-image-7.png" alt="client-images">
+                <img src="./assets/client-image-8.png" alt="client-images">
+                <img src="./assets/client-image-9.png" alt="client-images">
+                <img src="./assets/client-image-10.png" alt="client-images">
+                <img src="./assets/client-image-11.png" alt="client-images">
+            </div>
+    </section>
+    <!-- This is instructor section -->
+    <section class="exam primary-bg flex-center-se gap-25">
+        <div class="image-block">
+            <img src="./assets/instructor-image.png" alt="">
+        </div>
+        <div class="text-block flex-column gap-10">
+            <h1 class="heading font-lg text-left">Become an <strong class="secondary-color-text fw-800">INSTRUCTOR </strong> <br> Be a Part of us.</h1>
+                 <p class="para grey-text font-sm">Empower the next generation and share your expertise - become an instructor today!</p>
+                 <div class="flex-top flex-row" style="padding-top: 2rem;">
+                    <button class="btn-big secondary para-font font-sm primary-text fw-500"> Get Started</button>
+                 </div>
+        </div>
+    </section>
+    <!-- This is get in touch section -->
+    <section class="get-in-touch secondary-bg flex-center-se gap-25">
+        
+        <div class="text-block flex-column gap-5">
+            <h1 class="heading font-lg text-left"><strong class="primary-color-text fw-800">GET IN TOUCH</strong></h1>
+                 <p class="para grey-text font-xs">We are here for you. Reach out for any queries</p>
+                 <form>
+                    <input type="text" name="name" id="name" class="font-xxs heading-font fw-500" placeholder="Name">
+                    <input type="tel" name="phone" id="phone" class="font-xxs heading-font fw-500" placeholder="Mobile Number">
+                    <input type="email" name="email" id="email" class="font-xxs heading-font fw-500" placeholder="Email Address">
+                    <textarea style="resize: none;" name="message" class="font-xxs heading-font fw-500" id="message" cols="30" rows="8" placeholder="Message"></textarea>
+                    <input class="btn-big primary para-font font-sm primary-text fw-500" type="submit" value="Submit">
+                 </form>
+                
+        </div>
+        <div class="image-block">
+            <img src="./assets/get-in-touch.png" alt="">
+        </div>
+    </section>
+    <script src="https://code.iconify.design/3/3.1.0/iconify.min.js"></script>
+
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,4 @@
+hero will have the picture of the logo and sub text will be there along with apply now
+
+
+hero- bg image, text with apply now button
